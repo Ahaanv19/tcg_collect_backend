@@ -1,7 +1,7 @@
 <!-- Navigation Bar from bootstrap
 This HTML is setup as a fragment allowing it to be "included" by other HTML files via Jinja2
 -->
-<nav class="navbar navbar-expand-lg" style="background-color: #2d5f4f;">
+<nav class="navbar navbar-expand-lg" style="background-color: #7c3aed;">
     <div class="container-fluid">
         <div class="btn-group">
             <a class="navbar-brand" href="/" style="color: #ffffff; font-weight: bold;">{{basename}}</a>
@@ -20,7 +20,9 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
                         <li><a class="dropdown-item" href={{ url_for('utable') }}>User Management</a></li>
                         <li><a class="dropdown-item" href={{ url_for('u2table') }}>Data Tables</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="/api/donations">Donations API</a></li>
+                        <li><a class="dropdown-item" href="/api/sets">Sets API</a></li>
+                        <li><a class="dropdown-item" href="/api/cards">Cards API</a></li>
+                        <li><a class="dropdown-item" href="/api/shows">Card Shows API</a></li>
                         <li><a class="dropdown-item" href="/api/users">Users API</a></li>
                     </ul>
                 </div>
@@ -29,11 +31,10 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
                         Resources
                     </a>
                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="githubDropdown">
-                        <li><a class="dropdown-item" href="https://github.com/Ahaanv19/hunger_heroes_backend">Backend Repository</a></li>
+                        <li><a class="dropdown-item" href="https://github.com/Ahaanv19/tcg_collect_backend">Backend Repository</a></li>
                         <li><a class="dropdown-item" href="https://github.com/Ahaanv19">GitHub Profile</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="/docs/backend_initial_guide.md">Backend Guide</a></li>
-                        <li><a class="dropdown-item" href="/docs/FOOD_SAFETY_API.md">Food Safety API</a></li>
+                        <li><a class="dropdown-item" href="https://pokemontcg.io">Pokémon TCG API</a></li>
                     </ul>
                 </div>
             </div>
@@ -79,7 +80,7 @@ This HTML is setup as a fragment allowing it to be "included" by other HTML file
         <script>
             const search = document.getElementById('search');
             const google = 'https://www.google.com/search?q=site%3A+';
-            const site = 'https://github.com/Ahaanv19/hunger_heroes_backend';
+            const site = 'https://github.com/Ahaanv19/tcg_collect_backend';
 
             function submitted(event) {
                 if (event.key === 'Enter') {

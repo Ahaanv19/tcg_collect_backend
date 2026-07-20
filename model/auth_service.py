@@ -25,20 +25,19 @@ class AuthService:
     """Service for authentication operations."""
 
     @staticmethod
-    def register_user(name: str, email: str, password: str, role: str = "User", organization_id: int = None) -> dict:
+    def register_user(name: str, email: str, password: str, role: str = "User") -> dict:
         """
         Register a new user.
-        
+
         Args:
             name: User name
             email: User email
             password: User password (will be hashed)
             role: User role (default: "User")
-            organization_id: Organization ID if user is a Receiver (optional)
-            
+
         Returns:
             dict: User data
-            
+
         Raises:
             ValidationError: If validation fails
         """
@@ -52,13 +51,9 @@ class AuthService:
         if not password or len(password) < 6:
             raise ValidationError("Password is required and must be at least 6 characters")
         
-        if role not in ["User", "Donor", "Receiver", "Volunteer", "Admin"]:
+        if role not in ["User", "Vendor", "Admin"]:
             raise ValidationError(f"Invalid role: {role}")
-        
-        # Validate organization_id for Receiver role
-        if role == "Receiver" and not organization_id:
-            raise ValidationError("organization_id is required for Receiver role")
-        
+
         # Check for existing user
         existing_user = User.query.filter_by(_email=email).first()
         if existing_user:
@@ -78,7 +73,6 @@ class AuthService:
                 uid=unique_uid,
                 password=password,
                 role=role,
-                organization_id=organization_id
             )
             
             db.session.add(user)
@@ -246,9 +240,9 @@ def token_required(roles=None):
         function: Decorated function
         
     Example:
-        @app.route('/api/donations')
-        @token_required(roles=['Donor', 'Admin'])
-        def create_donation():
+        @app.route('/api/collection')
+        @token_required(roles=['User', 'Admin'])
+        def add_to_collection():
             current_user = g.current_user
             ...
     """

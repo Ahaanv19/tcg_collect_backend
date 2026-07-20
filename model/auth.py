@@ -36,8 +36,7 @@ def register():
         "name": "John Doe",
         "email": "john@example.com", 
         "password": "secure123",
-        "role": "Donor",  // optional: User, Donor, Receiver, Volunteer, Admin
-        "organization_id": 1  // optional: required if role is Receiver
+        "role": "User"  // optional: User, Vendor, Admin
     }
     
     Returns:
@@ -48,7 +47,7 @@ def register():
             "id": 1,
             "name": "John Doe",
             "email": "john@example.com",
-            "role": "Donor",
+            "role": "User",
             ...
         },
         "status": 201
@@ -65,15 +64,13 @@ def register():
         email = body.get('email')
         password = body.get('password')
         role = body.get('role', 'User')
-        organization_id = body.get('organization_id')
-        
+
         # Register user
         user_data = AuthService.register_user(
             name=name,
             email=email,
             password=password,
             role=role,
-            organization_id=organization_id
         )
         
         return APIResponse.created(
@@ -115,7 +112,7 @@ def login():
                 "id": 1,
                 "name": "John Doe",
                 "email": "john@example.com",
-                "role": "Donor"
+                "role": "User"
             }
         },
         "status": 200
@@ -234,7 +231,7 @@ def get_current_user():
             "id": 1,
             "name": "John Doe",
             "email": "john@example.com",
-            "role": "Donor",
+            "role": "User",
             "is_active": true,
             "created_at": "2026-03-05T12:00:00",
             "updated_at": "2026-03-05T12:00:00"
@@ -278,7 +275,7 @@ def get_user(user_id: int):
             "id": 1,
             "name": "John Doe",
             "email": "john@example.com",
-            "role": "Donor"
+            "role": "User"
         },
         "status": 200
     }

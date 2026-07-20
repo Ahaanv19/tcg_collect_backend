@@ -4,35 +4,34 @@
 {% block body %}
     <!-- Start of body content specific to page -->
     <div class="px-5 py-5 mx-auto">
-        <h1 class="text-center" style="font-family: 'Playfair Display', serif; color: darkgreen;"><strong>Hunger Heroes</strong></h1>
-        <p class="text-center" style="color: darkgreen; font-size: 18px; margin-bottom: 30px;"><em>Connecting Donors with Communities in Need</em></p>
+        <h1 class="text-center" style="font-family: 'Playfair Display', serif; color: #7c3aed;"><strong>TCG Collect</strong></h1>
+        <p class="text-center" style="color: #7c3aed; font-size: 18px; margin-bottom: 30px;"><em>Pokémon card prices, collection tracking, and the card-show circuit — one API</em></p>
         <div class="row">
             <div class="col-md-4">
                 <div class="card shadow-lg" style="background-color:rgb(41, 40, 39); color: white; border-radius: 15px;">
                     <div class="card-body">
-                    <h5 class="card-title">Mission</h5>
+                    <h5 class="card-title">What it does</h5>
                     <ul>
-                        <li>Reduce food waste through efficient donation tracking</li>
-                        <li>Connect food donors with organizations in need</li>
-                        <li>Real-time food safety compliance monitoring</li>
-                        <li>Automated routing for pickup and delivery</li>
-                        <li>Community-driven food security initiatives</li>
+                        <li>Cross-vendor prices (TCGplayer + Cardmarket + eBay)</li>
+                        <li>Full catalog mirrored from the Pokémon TCG API</li>
+                        <li>Collection tracking with cost basis &amp; gain/loss</li>
+                        <li>Set-completion &amp; want lists</li>
+                        <li>Searchable card-show / expo directory</li>
                     </ul>
-                    <a href="https://github.com/Ahaanv19/hunger_heroes_backend" class="btn btn-light">View Repository</a>
+                    <a href="https://github.com/Ahaanv19/tcg_collect_backend" class="btn btn-light">View Repository</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card shadow-lg" style="background-color:rgb(36, 36, 36); color: white; border-radius: 15px;">
                     <div class="card-body">
-                    <h5 class="card-title">Platform Features</h5>
+                    <h5 class="card-title">API Surface</h5>
                     <ul>
-                        <li>Donation Management (Create, Track, Deliver)</li>
-                        <li>Food Safety Compliance</li>
-                        <li>Allergen & Dietary Tracking</li>
-                        <li>Temperature Monitoring</li>
-                        <li>Volunteer Coordination</li>
-                        <li>Subscription & Payment Processing</li>
+                        <li>Catalog: sets, cards, prices, movers</li>
+                        <li>Collection &amp; want list (per user)</li>
+                        <li>Portfolio analytics &amp; set completion</li>
+                        <li>Show Mode (live prices vs. your max bid)</li>
+                        <li>Card shows (search by date &amp; distance)</li>
                     </ul>
                     <a href="/users/table" class="btn btn-light">View Data</a>
                     </div>
@@ -46,10 +45,10 @@
                         <li><strong>Framework:</strong> Flask</li>
                         <li><strong>Database:</strong> SQLite / MySQL</li>
                         <li><strong>Authentication:</strong> JWT + Flask-Login</li>
-                        <li><strong>Payments:</strong> Stripe API</li>
+                        <li><strong>Card data:</strong> Pokémon TCG API</li>
                         <li><strong>Deployment:</strong> Docker + Nginx</li>
                     </ul>
-                    <a href="/docs/backend_initial_guide.md" class="btn btn-light">Documentation</a>
+                    <a href="/api/sets" class="btn btn-light">Browse Sets API</a>
                     </div>
                 </div>
             </div>

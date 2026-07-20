@@ -38,17 +38,15 @@ from api.verify import verify_api
 from api.live import incident_api
 from api.subscription import subscription_api
 from api.stripe_api import stripe_api
-from api.businesses import businesses_api
-from api.donation import donation_api
-from api.analytics import analytics_api
-from api.admin import admin_api
-from api.game_leaderboard import hunger_heroes_api
+# TCG Collect domain endpoints
+from api.tcg import tcg_api
+from api.collection import collection_api
+from api.card_show import card_show_api
 # Authentication endpoints
 from model.auth import auth_bp, users_bp
 
 # database Initialization functions
 from model.carChat import CarChat
-from model.organization import Organization, initOrganizations
 from model.user import User, initUsers
 from model.mod import Section, initSections
 from model.group import Group, initGroups
@@ -58,10 +56,10 @@ from model.nestPost import NestPost, initNestPosts
 from model.vote import Vote, initVotes
 from model.savedLocations import SavedLocations, initSavedLocations
 from model.subscription import Subscription, SubscriptionRequest, PaymentHistory, RouteUsage, initSubscriptions
-from model.donation import Donation, DonationStatusLog, VolunteerAssignment, initDonations
-from model.game_leaderboard import HungerHeroScore, initLeaderboard
-from model.flag import Flag
-from model.cleanup import start_cleanup_scheduler
+# TCG Collect domain models
+from model.tcg import CardSet, Card, PriceSnapshot, initCatalog
+from model.collection import CollectionItem, WantListItem, initCollection
+from model.card_show import CardShow, initCardShows
 from api.api_logger import setup_api_logging, api_logger, log_endpoint_access
 from api.rate_limiter import add_rate_limit_headers, default_limiter, strict_limiter, admin_limiter, rate_limit
 
@@ -95,11 +93,10 @@ app.register_blueprint(verify_api)
 app.register_blueprint(incident_api)
 app.register_blueprint(subscription_api)
 app.register_blueprint(stripe_api)
-app.register_blueprint(businesses_api)
-app.register_blueprint(donation_api)
-app.register_blueprint(analytics_api)
-app.register_blueprint(admin_api)
-app.register_blueprint(hunger_heroes_api)
+# TCG Collect domain
+app.register_blueprint(tcg_api)
+app.register_blueprint(collection_api)
+app.register_blueprint(card_show_api)
 # Register authentication blueprints
 app.register_blueprint(auth_bp)
 app.register_blueprint(users_bp)
@@ -204,11 +201,6 @@ custom_cli = AppGroup('custom', help='Custom commands')
 @custom_cli.command('generate_data')
 def generate_data():
     try:
-        initOrganizations()
-    except Exception as e:
-        print(f"Error in initOrganizations: {e}")
-
-    try:
         initUsers()
     except Exception as e:
         print(f"Error in initUsers: {e}")
@@ -254,14 +246,19 @@ def generate_data():
         print(f"Error in initSubscriptions: {e}")
 
     try:
-        initDonations()
+        initCatalog()
     except Exception as e:
-        print(f"Error in initDonations: {e}")
+        print(f"Error in initCatalog: {e}")
 
     try:
-        initLeaderboard()
+        initCollection()
     except Exception as e:
-        print(f"Error in initLeaderboard: {e}")
+        print(f"Error in initCollection: {e}")
+
+    try:
+        initCardShows()
+    except Exception as e:
+        print(f"Error in initCardShows: {e}")
 
 # Backup the old database
 def backup_database(db_uri, backup_uri):
@@ -284,7 +281,10 @@ def extract_data():
         data['channels'] = [channel.read() for channel in Channel.query.all()]
         data['posts'] = [post.read() for post in Post.query.all()]
         data['locations'] = [post.read() for post in SavedLocations.query.all()]
-        data['donations'] = [d.read() for d in Donation.query.all()]
+        # User-owned TCG data. The card catalog itself is not backed up -- it is
+        # rebuildable at any time with `flask tcg sync-all`.
+        data['collection'] = [i.read() for i in CollectionItem.query.all()]
+        data['wantlist'] = [i.read() for i in WantListItem.query.all()]
     return data
 
 # Save extracted data to JSON files
@@ -299,7 +299,8 @@ def save_data_to_json(data, directory='backup'):
 # Load data from JSON files
 def load_data_from_json(directory='backup'):
     data = {}
-    for table in ['users', 'sections', 'groups', 'channels', 'posts', 'locations', 'donations']:
+    for table in ['users', 'sections', 'groups', 'channels', 'posts', 'locations',
+                  'collection', 'wantlist']:
         try:
             with open(os.path.join(directory, f'{table}.json'), 'r') as f:
                 data[table] = json.load(f)
@@ -316,7 +317,8 @@ def restore_data(data):
         _ = Channel.restore(data.get('channels', []))
         _ = Post.restore(data.get('posts', []))
         _ = SavedLocations.restore(data.get('locations', []))
-        Donation.restore(data.get('donations', []))
+        CollectionItem.restore(data.get('collection', []))
+        WantListItem.restore(data.get('wantlist', []))
     print("Data restored to the new database.")
 
 # Define a command to backup data
@@ -334,9 +336,12 @@ def restore_data_command():
     
 # Register the custom command group with the Flask application
 app.cli.add_command(custom_cli)
-        
-# Start the auto-cleanup scheduler for delivered donations
-start_cleanup_scheduler()
+
+# Register `flask tcg ...` commands for syncing the Pokémon TCG catalog.
+# Imported here rather than at module top so a missing API key or network
+# problem cannot block the app from booting.
+from services.pokemontcg_service import register_cli as register_tcg_cli
+app.cli.add_command(register_tcg_cli(AppGroup))
 
 # this runs the flask application on the development server
 if __name__ == "__main__":

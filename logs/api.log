@@ -1,0 +1,824 @@
+2026-05-22 08:14:02 - api - INFO - [c1dca586] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:14:02 - api - INFO - [c1dca586] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.002s - User: anonymous
+2026-05-22 08:14:02 - api - INFO - [d795ba4c] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:14:02 - api - WARNING - [d795ba4c] END GET /user_api._crud - Status: 401 - Duration: 0.002s - User: anonymous
+2026-05-22 08:14:32 - api - INFO - [e61017a6] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:14:32 - api - INFO - [e61017a6] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.003s - User: anonymous
+2026-05-22 08:14:32 - api - INFO - [197d91f5] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:14:32 - api - WARNING - [197d91f5] END GET /user_api._crud - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-22 08:14:42 - api - INFO - [c8dd323b] START OPTIONS /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:14:42 - api - INFO - [c8dd323b] END OPTIONS /user_api._security - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-22 08:14:42 - api - INFO - [46cd7326] START POST /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:14:43 - api - WARNING - [46cd7326] END POST /user_api._security - Status: 401 - Duration: 0.202s - User: anonymous
+2026-05-22 08:14:48 - api - INFO - [29a27c4d] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:14:48 - api - INFO - [afe44d9c] START OPTIONS /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:14:48 - api - INFO - [29a27c4d] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.002s - User: anonymous
+2026-05-22 08:14:48 - api - INFO - [afe44d9c] END OPTIONS /pfp_api._pfp - Status: 200 - Duration: 0.002s - User: anonymous
+2026-05-22 08:14:48 - api - INFO - [e808c5b7] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:14:48 - api - INFO - [e808c5b7] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.007s - User: anonymous
+2026-05-22 08:14:48 - api - INFO - [20b062cc] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:14:48 - api - INFO - [9aceeb7a] START GET /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:14:48 - api - WARNING - [20b062cc] END GET /user_api._crud - Status: 401 - Duration: 0.002s - User: anonymous
+2026-05-22 08:14:48 - api - WARNING - [9aceeb7a] END GET /pfp_api._pfp - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-22 08:14:48 - api - INFO - [43391cbe] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:14:48 - api - WARNING - [43391cbe] END GET /user_api._crud - Status: 401 - Duration: 0.000s - User: anonymous
+2026-05-22 08:19:28 - api - INFO - [4ad28ac5] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:28 - api - INFO - [4ad28ac5] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.007s - User: anonymous
+2026-05-22 08:19:28 - api - INFO - [c1edf5dd] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:28 - api - WARNING - [c1edf5dd] END GET /user_api._crud - Status: 401 - Duration: 0.003s - User: anonymous
+2026-05-22 08:19:35 - api - INFO - [a07de5cb] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:35 - api - INFO - [a07de5cb] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.003s - User: anonymous
+2026-05-22 08:19:35 - api - INFO - [e1ea1886] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:35 - api - WARNING - [e1ea1886] END GET /user_api._crud - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-22 08:19:43 - api - INFO - [f6d01761] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:43 - api - INFO - [f6d01761] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.002s - User: anonymous
+2026-05-22 08:19:43 - api - INFO - [766ce35c] START POST /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:44 - api - INFO - [766ce35c] END POST /user_api._crud - Status: 200 - Duration: 0.382s - User: anonymous
+2026-05-22 08:19:50 - api - INFO - [7b8b92b3] START OPTIONS /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:50 - api - INFO - [7b8b92b3] END OPTIONS /user_api._security - Status: 200 - Duration: 0.003s - User: anonymous
+2026-05-22 08:19:50 - api - INFO - [0df5e5a8] START POST /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:50 - api - WARNING - [0df5e5a8] END POST /user_api._security - Status: 401 - Duration: 0.019s - User: anonymous
+2026-05-22 08:19:54 - api - INFO - [4ac99e6d] START OPTIONS /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:54 - api - INFO - [4ac99e6d] END OPTIONS /user_api._security - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-22 08:19:54 - api - INFO - [60446941] START POST /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:54 - api - WARNING - [60446941] END POST /user_api._security - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-22 08:19:54 - api - INFO - [474cba52] START OPTIONS /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:54 - api - INFO - [474cba52] END OPTIONS /user_api._security - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-22 08:19:54 - api - INFO - [1562dea7] START POST /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:54 - api - WARNING - [1562dea7] END POST /user_api._security - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-22 08:19:55 - api - INFO - [9be073eb] START OPTIONS /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:55 - api - INFO - [9be073eb] END OPTIONS /user_api._security - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-22 08:19:55 - api - INFO - [157ddf57] START POST /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:55 - api - WARNING - [157ddf57] END POST /user_api._security - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-22 08:19:55 - api - INFO - [2536e1e5] START OPTIONS /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:55 - api - INFO - [2536e1e5] END OPTIONS /user_api._security - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-22 08:19:55 - api - INFO - [b733d611] START POST /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:55 - api - WARNING - [b733d611] END POST /user_api._security - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-22 08:19:55 - api - INFO - [58f1da70] START OPTIONS /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:55 - api - INFO - [58f1da70] END OPTIONS /pfp_api._pfp - Status: 200 - Duration: 0.003s - User: anonymous
+2026-05-22 08:19:55 - api - INFO - [a2ba913a] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:55 - api - INFO - [a2ba913a] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.005s - User: anonymous
+2026-05-22 08:19:55 - api - INFO - [7f1bc623] START GET /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:55 - api - WARNING - [7f1bc623] END GET /pfp_api._pfp - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-22 08:19:55 - api - INFO - [3e96ec25] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:55 - api - INFO - [dbda0b5a] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:55 - api - WARNING - [dbda0b5a] END GET /user_api._crud - Status: 401 - Duration: 0.002s - User: anonymous
+2026-05-22 08:19:55 - api - INFO - [3e96ec25] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.003s - User: anonymous
+2026-05-22 08:19:55 - api - INFO - [85fa11bb] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:19:55 - api - WARNING - [85fa11bb] END GET /user_api._crud - Status: 401 - Duration: 0.000s - User: anonymous
+2026-05-22 08:20:04 - api - INFO - [b90538b8] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:20:04 - api - INFO - [b90538b8] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.002s - User: anonymous
+2026-05-22 08:20:04 - api - INFO - [1656bbca] START POST /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:20:04 - api - INFO - [1656bbca] END POST /user_api._crud - Status: 200 - Duration: 0.258s - User: anonymous
+2026-05-22 08:20:12 - api - INFO - [0ce6552c] START OPTIONS /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:20:12 - api - INFO - [0ce6552c] END OPTIONS /user_api._security - Status: 200 - Duration: 0.002s - User: anonymous
+2026-05-22 08:20:12 - api - INFO - [003509c9] START POST /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:20:13 - api - INFO - [003509c9] END POST /user_api._security - Status: 200 - Duration: 0.145s - User: anonymous
+2026-05-22 08:20:13 - api - INFO - [b738ef58] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:20:13 - api - INFO - [b738ef58] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-22 08:20:13 - api - INFO - [f86af792] START OPTIONS /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:20:13 - api - INFO - [f86af792] END OPTIONS /pfp_api._pfp - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-22 08:20:13 - api - INFO - [fc1e51e8] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:20:13 - api - INFO - [60b6991e] START GET /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:20:13 - api - INFO - [fc1e51e8] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_5
+2026-05-22 08:20:13 - api - WARNING - [60b6991e] END GET /pfp_api._pfp - Status: 404 - Duration: 0.004s - User: user_5
+2026-05-22 08:20:13 - api - INFO - [6130809e] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:20:13 - api - INFO - [6130809e] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_5
+2026-05-22 08:20:13 - api - INFO - [df7673b7] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:20:13 - api - INFO - [df7673b7] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-22 08:20:13 - api - INFO - [90940c4f] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:20:13 - api - INFO - [90940c4f] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.010s - User: user_5
+2026-05-22 08:21:36 - api - INFO - [dc4aacd6] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:21:36 - api - INFO - [dc4aacd6] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.003s - User: anonymous
+2026-05-22 08:21:36 - api - INFO - [b978605b] START OPTIONS /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:21:36 - api - INFO - [b978605b] END OPTIONS /pfp_api._pfp - Status: 200 - Duration: 0.003s - User: anonymous
+2026-05-22 08:21:36 - api - INFO - [89daa0ef] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:21:36 - api - INFO - [bd16711c] START GET /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:21:36 - api - WARNING - [bd16711c] END GET /pfp_api._pfp - Status: 404 - Duration: 0.018s - User: user_5
+2026-05-22 08:21:36 - api - INFO - [89daa0ef] END GET /user_api._crud - Status: 200 - Duration: 0.019s - User: user_5
+2026-05-22 08:21:36 - api - INFO - [ce864302] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:21:36 - api - INFO - [ce864302] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_5
+2026-05-22 08:21:40 - api - INFO - [3988f304] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:21:40 - api - INFO - [3988f304] END GET /user_api._crud - Status: 200 - Duration: 0.004s - User: user_5
+2026-05-22 08:21:43 - api - INFO - [0caca190] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:21:43 - api - INFO - [0caca190] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.003s - User: anonymous
+2026-05-22 08:21:43 - api - INFO - [9542c096] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 08:21:43 - api - INFO - [9542c096] END GET /user_api._crud - Status: 200 - Duration: 0.005s - User: user_5
+2026-05-22 09:13:51 - api - INFO - [32f23040] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 09:13:51 - api - INFO - [32f23040] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.009s - User: anonymous
+2026-05-22 09:13:51 - api - INFO - [10972c41] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 09:13:51 - api - INFO - [10972c41] END GET /user_api._crud - Status: 200 - Duration: 0.119s - User: user_5
+2026-05-22 09:13:55 - api - INFO - [55ad354d] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 09:13:56 - api - INFO - [55ad354d] END GET /user_api._crud - Status: 200 - Duration: 0.012s - User: user_5
+2026-05-22 09:13:56 - api - INFO - [1409700b] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 09:13:56 - api - INFO - [1409700b] END GET /user_api._crud - Status: 200 - Duration: 0.002s - User: user_5
+2026-05-22 09:14:01 - api - INFO - [87a6e917] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 09:14:01 - api - INFO - [87a6e917] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.004s - User: anonymous
+2026-05-22 09:14:01 - api - INFO - [9cf72116] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 09:14:01 - api - INFO - [9cf72116] END GET /user_api._crud - Status: 200 - Duration: 0.021s - User: user_5
+2026-05-22 09:14:03 - api - INFO - [8aa09e58] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 09:14:03 - api - INFO - [8aa09e58] END GET /user_api._crud - Status: 200 - Duration: 0.005s - User: user_5
+2026-05-22 09:14:06 - api - INFO - [5692e78e] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 09:14:06 - api - INFO - [5692e78e] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.002s - User: anonymous
+2026-05-22 09:45:47 - api - INFO - [cb5eefc0] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 09:45:47 - api - INFO - [cb5eefc0] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.020s - User: anonymous
+2026-05-22 09:45:47 - api - INFO - [351dd381] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 09:45:47 - api - WARNING - [351dd381] END GET /user_api._crud - Status: 401 - Duration: 0.004s - User: anonymous
+2026-05-22 09:46:02 - api - INFO - [b609e996] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 09:46:02 - api - INFO - [b609e996] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.003s - User: anonymous
+2026-05-22 09:46:02 - api - INFO - [48004df6] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 09:46:02 - api - WARNING - [48004df6] END GET /user_api._crud - Status: 401 - Duration: 0.000s - User: anonymous
+2026-05-22 09:47:03 - api - INFO - [bbae4be0] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 09:47:03 - api - INFO - [bbae4be0] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.004s - User: anonymous
+2026-05-22 09:47:03 - api - INFO - [d554241f] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 09:47:03 - api - WARNING - [d554241f] END GET /user_api._crud - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-22 09:47:08 - api - INFO - [ff7919b2] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 09:47:08 - api - WARNING - [ff7919b2] END GET /user_api._crud - Status: 401 - Duration: 0.000s - User: anonymous
+2026-05-22 09:54:23 - api - INFO - [8186d3e3] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 09:54:23 - api - INFO - [8186d3e3] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.002s - User: anonymous
+2026-05-22 09:54:23 - api - INFO - [c33b07d2] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 09:54:23 - api - WARNING - [c33b07d2] END GET /user_api._crud - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-22 10:01:21 - api - INFO - [13dbef90] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 10:01:21 - api - INFO - [13dbef90] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.003s - User: anonymous
+2026-05-22 10:01:21 - api - INFO - [5226bf96] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 10:01:21 - api - WARNING - [5226bf96] END GET /user_api._crud - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-22 10:04:25 - api - INFO - [7cce44af] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 10:04:25 - api - INFO - [7cce44af] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.004s - User: anonymous
+2026-05-22 10:04:25 - api - INFO - [2138176d] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 10:04:25 - api - WARNING - [2138176d] END GET /user_api._crud - Status: 401 - Duration: 0.000s - User: anonymous
+2026-05-22 10:04:25 - api - INFO - [af2e7a1d] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 10:04:25 - api - WARNING - [af2e7a1d] END GET /user_api._crud - Status: 401 - Duration: 0.000s - User: anonymous
+2026-05-22 10:04:35 - api - INFO - [4820eafa] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 10:04:35 - api - INFO - [4820eafa] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.004s - User: anonymous
+2026-05-22 10:04:35 - api - INFO - [076f6294] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 10:04:35 - api - WARNING - [076f6294] END GET /user_api._crud - Status: 401 - Duration: 0.004s - User: anonymous
+2026-05-22 10:04:37 - api - INFO - [39e82852] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 10:04:37 - api - WARNING - [39e82852] END GET /user_api._crud - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-22 10:04:37 - api - INFO - [2f48e8a1] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 10:04:37 - api - WARNING - [2f48e8a1] END GET /user_api._crud - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-22 10:04:44 - api - INFO - [d872102a] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 10:04:44 - api - INFO - [d872102a] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.003s - User: anonymous
+2026-05-22 10:04:44 - api - INFO - [44802c8b] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-22 10:04:44 - api - WARNING - [44802c8b] END GET /user_api._crud - Status: 401 - Duration: 0.000s - User: anonymous
+2026-05-26 10:15:37 - api - INFO - [6c251a07] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:15:37 - api - INFO - [6c251a07] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.007s - User: anonymous
+2026-05-26 10:15:37 - api - INFO - [273d4301] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:15:37 - api - WARNING - [273d4301] END GET /user_api._crud - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-26 10:15:50 - api - INFO - [06acf10c] START OPTIONS /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:15:50 - api - INFO - [06acf10c] END OPTIONS /user_api._security - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-26 10:15:50 - api - INFO - [490642be] START POST /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:15:50 - api - WARNING - [490642be] END POST /user_api._security - Status: 401 - Duration: 0.196s - User: anonymous
+2026-05-26 10:15:55 - api - INFO - [a801fb04] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:15:55 - api - INFO - [a801fb04] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-26 10:15:55 - api - INFO - [88a499c1] START OPTIONS /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:15:55 - api - INFO - [88a499c1] END OPTIONS /pfp_api._pfp - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-26 10:15:55 - api - INFO - [36639a09] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:15:55 - api - INFO - [c189d45a] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:15:55 - api - WARNING - [c189d45a] END GET /user_api._crud - Status: 401 - Duration: 0.000s - User: anonymous
+2026-05-26 10:15:55 - api - INFO - [36639a09] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-26 10:15:55 - api - INFO - [2ea0a0db] START GET /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:15:55 - api - WARNING - [2ea0a0db] END GET /pfp_api._pfp - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-26 10:15:55 - api - INFO - [ba680e12] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:15:55 - api - WARNING - [ba680e12] END GET /user_api._crud - Status: 401 - Duration: 0.000s - User: anonymous
+2026-05-26 10:16:14 - api - INFO - [83be05ae] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:16:14 - api - INFO - [83be05ae] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-26 10:16:14 - api - INFO - [a8db7626] START POST /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:16:14 - api - INFO - [a8db7626] END POST /user_api._crud - Status: 200 - Duration: 0.265s - User: anonymous
+2026-05-26 10:16:21 - api - INFO - [3f0952d6] START OPTIONS /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:16:21 - api - INFO - [3f0952d6] END OPTIONS /user_api._security - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-26 10:16:21 - api - INFO - [0a269811] START POST /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:16:21 - api - INFO - [0a269811] END POST /user_api._security - Status: 200 - Duration: 0.125s - User: anonymous
+2026-05-26 10:16:21 - api - INFO - [769a8b05] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:16:21 - api - INFO - [769a8b05] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-26 10:16:21 - api - INFO - [37241f7a] START OPTIONS /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:16:21 - api - INFO - [37241f7a] END OPTIONS /pfp_api._pfp - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-26 10:16:21 - api - INFO - [64178234] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:16:21 - api - INFO - [64178234] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-26 10:16:21 - api - INFO - [fff8d514] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:16:21 - api - INFO - [39976695] START GET /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:16:21 - api - INFO - [fff8d514] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_6
+2026-05-26 10:16:21 - api - INFO - [82656c16] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:16:21 - api - INFO - [82656c16] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_6
+2026-05-26 10:16:21 - api - WARNING - [39976695] END GET /pfp_api._pfp - Status: 404 - Duration: 0.004s - User: user_6
+2026-05-26 10:16:21 - api - INFO - [ab8f8e32] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:16:21 - api - INFO - [ab8f8e32] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-26 10:16:21 - api - INFO - [78564681] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:16:21 - api - INFO - [78564681] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.010s - User: user_6
+2026-05-26 10:20:01 - api - INFO - [c41e1d99] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:20:01 - api - INFO - [452410a2] START OPTIONS /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:20:01 - api - INFO - [c41e1d99] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.002s - User: anonymous
+2026-05-26 10:20:01 - api - INFO - [0816108f] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:20:01 - api - INFO - [452410a2] END OPTIONS /pfp_api._pfp - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-26 10:20:01 - api - INFO - [0816108f] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-26 10:20:01 - api - INFO - [bfeb192b] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:20:01 - api - INFO - [4fcacdc2] START GET /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:20:01 - api - INFO - [bfeb192b] END GET /user_api._crud - Status: 200 - Duration: 0.016s - User: user_6
+2026-05-26 10:20:01 - api - WARNING - [4fcacdc2] END GET /pfp_api._pfp - Status: 404 - Duration: 0.006s - User: user_6
+2026-05-26 10:20:01 - api - INFO - [d12fa302] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:20:01 - api - INFO - [d12fa302] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_6
+2026-05-26 10:20:02 - api - INFO - [2992e1ba] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:20:02 - api - INFO - [2992e1ba] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_6
+2026-05-26 10:20:08 - api - INFO - [5a1b0e21] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:20:08 - api - INFO - [5a1b0e21] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.002s - User: anonymous
+2026-05-26 10:20:08 - api - INFO - [41a2696c] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:20:08 - api - WARNING - [41a2696c] END GET /user_api._crud - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-26 10:20:18 - api - INFO - [f1166f6c] START OPTIONS /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:20:18 - api - INFO - [f1166f6c] END OPTIONS /user_api._security - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-26 10:20:18 - api - INFO - [aa98e3d8] START POST /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:20:18 - api - INFO - [aa98e3d8] END POST /user_api._security - Status: 200 - Duration: 0.158s - User: anonymous
+2026-05-26 10:20:18 - api - INFO - [be45f6de] START OPTIONS /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:20:18 - api - INFO - [be45f6de] END OPTIONS /pfp_api._pfp - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-26 10:20:18 - api - INFO - [4caa6a45] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:20:18 - api - INFO - [4caa6a45] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-26 10:20:18 - api - INFO - [9e9ffddb] START GET /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:20:18 - api - WARNING - [9e9ffddb] END GET /pfp_api._pfp - Status: 404 - Duration: 0.001s - User: user_6
+2026-05-26 10:20:18 - api - INFO - [e4031b0d] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:20:18 - api - INFO - [e4031b0d] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_6
+2026-05-26 10:20:18 - api - INFO - [f0976e93] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:20:18 - api - INFO - [f0976e93] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_6
+2026-05-26 10:20:21 - api - INFO - [a874ab27] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:20:21 - api - INFO - [a874ab27] END GET /user_api._crud - Status: 200 - Duration: 0.002s - User: user_6
+2026-05-26 10:20:22 - api - INFO - [5311896b] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-26 10:20:22 - api - INFO - [5311896b] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_6
+2026-05-27 11:23:25 - api - INFO - [b09360ee] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 11:23:25 - api - INFO - [b09360ee] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.006s - User: anonymous
+2026-05-27 11:23:25 - api - INFO - [c213a7c0] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 11:23:25 - api - WARNING - [c213a7c0] END GET /user_api._crud - Status: 401 - Duration: 0.002s - User: anonymous
+2026-05-27 18:55:03 - api - INFO - [3263d20c] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:55:03 - api - INFO - [3263d20c] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.006s - User: anonymous
+2026-05-27 18:55:03 - api - INFO - [6da5834d] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:55:03 - api - WARNING - [6da5834d] END GET /user_api._crud - Status: 401 - Duration: 0.003s - User: anonymous
+2026-05-27 18:55:10 - api - INFO - [27ef71fa] START OPTIONS /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:55:10 - api - INFO - [27ef71fa] END OPTIONS /user_api._security - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 18:55:10 - api - INFO - [4ebdd137] START POST /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:55:11 - api - WARNING - [4ebdd137] END POST /user_api._security - Status: 401 - Duration: 0.188s - User: anonymous
+2026-05-27 18:55:16 - api - INFO - [da8826a1] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:55:16 - api - INFO - [eeda61d5] START OPTIONS /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:55:16 - api - INFO - [da8826a1] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.010s - User: anonymous
+2026-05-27 18:55:16 - api - INFO - [eeda61d5] END OPTIONS /pfp_api._pfp - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 18:55:16 - api - INFO - [220a2931] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:55:16 - api - INFO - [dd124876] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:55:16 - api - INFO - [220a2931] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 18:55:16 - api - INFO - [f92177e7] START GET /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:55:16 - api - WARNING - [dd124876] END GET /user_api._crud - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-27 18:55:16 - api - WARNING - [f92177e7] END GET /pfp_api._pfp - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-27 18:55:16 - api - INFO - [4f3c8fa4] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:55:16 - api - WARNING - [4f3c8fa4] END GET /user_api._crud - Status: 401 - Duration: 0.000s - User: anonymous
+2026-05-27 18:55:24 - api - INFO - [108fd40d] START OPTIONS /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:55:24 - api - INFO - [108fd40d] END OPTIONS /user_api._security - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 18:55:24 - api - INFO - [b03f93f9] START POST /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:55:24 - api - WARNING - [b03f93f9] END POST /user_api._security - Status: 401 - Duration: 0.011s - User: anonymous
+2026-05-27 18:55:26 - api - INFO - [798f050f] START OPTIONS /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:55:26 - api - INFO - [798f050f] END OPTIONS /user_api._security - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 18:55:26 - api - INFO - [adc19cff] START POST /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:55:26 - api - WARNING - [adc19cff] END POST /user_api._security - Status: 401 - Duration: 0.003s - User: anonymous
+2026-05-27 18:55:30 - api - INFO - [bef9e625] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:55:30 - api - INFO - [bef9e625] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.002s - User: anonymous
+2026-05-27 18:55:30 - api - INFO - [85c581b9] START OPTIONS /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:55:30 - api - INFO - [85c581b9] END OPTIONS /pfp_api._pfp - Status: 200 - Duration: 0.002s - User: anonymous
+2026-05-27 18:55:30 - api - INFO - [5e0aefce] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:55:30 - api - WARNING - [5e0aefce] END GET /user_api._crud - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-27 18:55:30 - api - INFO - [e892cd68] START GET /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:55:30 - api - WARNING - [e892cd68] END GET /pfp_api._pfp - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-27 18:55:30 - api - INFO - [de73bc6b] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:55:30 - api - WARNING - [de73bc6b] END GET /user_api._crud - Status: 401 - Duration: 0.001s - User: anonymous
+2026-05-27 18:56:34 - api - INFO - [9672b2a4] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:56:34 - api - INFO - [9672b2a4] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.002s - User: anonymous
+2026-05-27 18:56:34 - api - INFO - [e6111917] START POST /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:56:35 - api - INFO - [e6111917] END POST /user_api._crud - Status: 200 - Duration: 0.291s - User: anonymous
+2026-05-27 18:56:39 - api - INFO - [9003eff0] START OPTIONS /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:56:39 - api - INFO - [9003eff0] END OPTIONS /user_api._security - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 18:56:39 - api - INFO - [3422b788] START POST /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:56:40 - api - INFO - [3422b788] END POST /user_api._security - Status: 200 - Duration: 0.143s - User: anonymous
+2026-05-27 18:56:40 - api - INFO - [338ebdd4] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:56:40 - api - INFO - [338ebdd4] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-27 18:56:40 - api - INFO - [566686bd] START OPTIONS /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:56:40 - api - INFO - [566686bd] END OPTIONS /pfp_api._pfp - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-27 18:56:40 - api - INFO - [2676785d] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:56:40 - api - INFO - [dba73436] START GET /pfp_api._pfp - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:56:40 - api - WARNING - [dba73436] END GET /pfp_api._pfp - Status: 404 - Duration: 0.001s - User: user_7
+2026-05-27 18:56:40 - api - INFO - [2676785d] END GET /user_api._crud - Status: 200 - Duration: 0.002s - User: user_7
+2026-05-27 18:56:40 - api - INFO - [fd9e0023] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:56:40 - api - INFO - [fd9e0023] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_7
+2026-05-27 18:56:40 - api - INFO - [80416cb5] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:56:40 - api - INFO - [80416cb5] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 18:56:40 - api - INFO - [0357aee2] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:56:40 - api - INFO - [0357aee2] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.006s - User: user_7
+2026-05-27 18:56:42 - api - INFO - [dc71dd1b] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:56:42 - api - INFO - [dc71dd1b] END GET /user_api._crud - Status: 200 - Duration: 0.002s - User: user_7
+2026-05-27 18:56:42 - api - INFO - [93211b49] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 18:56:42 - api - INFO - [93211b49] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.003s - User: user_7
+2026-05-27 19:07:11 - api - INFO - [8424935f] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:07:11 - api - INFO - [8424935f] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.006s - User: anonymous
+2026-05-27 19:07:11 - api - INFO - [b28abed7] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:07:11 - api - INFO - [b28abed7] END GET /user_api._crud - Status: 200 - Duration: 0.022s - User: user_7
+2026-05-27 19:07:11 - api - INFO - [403645c7] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:07:11 - api - INFO - [403645c7] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-27 19:07:11 - api - INFO - [567e9888] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:07:11 - api - INFO - [567e9888] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.002s - User: user_7
+2026-05-27 19:07:30 - api - INFO - [22b2469c] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:07:30 - api - INFO - [22b2469c] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-27 19:07:30 - api - INFO - [ebc6ab10] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:07:30 - api - INFO - [ebc6ab10] END GET /user_api._crud - Status: 200 - Duration: 0.002s - User: user_7
+2026-05-27 19:07:30 - api - INFO - [8f948c08] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:07:30 - api - INFO - [8f948c08] END GET /user_api._crud - Status: 200 - Duration: 0.002s - User: user_7
+2026-05-27 19:07:30 - api - INFO - [dea88309] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:07:30 - api - INFO - [dea88309] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 19:07:30 - api - INFO - [f9a8e804] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:07:30 - api - INFO - [f9a8e804] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.009s - User: user_7
+2026-05-27 19:07:53 - api - INFO - [32dc5a69] START OPTIONS /donation_api.donationlistapi - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:07:53 - api - INFO - [32dc5a69] END OPTIONS /donation_api.donationlistapi - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 19:07:53 - api - INFO - [0226d52d] START POST /donation_api.donationlistapi - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:07:53 - api - WARNING - [0226d52d] END POST /donation_api.donationlistapi - Status: 400 - Duration: 0.002s - User: anonymous
+2026-05-27 19:07:53 - api - INFO - [d7ddd9e5] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:07:53 - api - INFO - [d7ddd9e5] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 19:07:53 - api - INFO - [bd633d21] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:07:53 - api - INFO - [bd633d21] END GET /user_api._crud - Status: 200 - Duration: 0.002s - User: user_7
+2026-05-27 19:07:53 - api - INFO - [5761d625] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:07:53 - api - INFO - [5761d625] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-27 19:07:53 - api - INFO - [47c28fb5] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:07:53 - api - INFO - [47c28fb5] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.002s - User: user_7
+2026-05-27 19:08:22 - api - INFO - [9f2a5dfe] START OPTIONS /donation_api.donationlabelapi - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:08:22 - api - INFO - [9f2a5dfe] END OPTIONS /donation_api.donationlabelapi - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 19:08:22 - api - INFO - [a8c2bb73] START GET /donation_api.donationlabelapi - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:08:22 - api - WARNING - [a8c2bb73] END GET /donation_api.donationlabelapi - Status: 404 - Duration: 0.018s - User: anonymous
+2026-05-27 19:09:03 - api - INFO - [543a5434] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:09:03 - api - INFO - [543a5434] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 19:09:03 - api - INFO - [79cd66ce] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:09:03 - api - INFO - [79cd66ce] END GET /user_api._crud - Status: 200 - Duration: 0.019s - User: user_7
+2026-05-27 19:09:03 - api - INFO - [23b9ee4e] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:09:03 - api - INFO - [23b9ee4e] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 19:09:03 - api - INFO - [8d6e7fda] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:09:03 - api - INFO - [8d6e7fda] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.002s - User: user_7
+2026-05-27 19:09:08 - api - INFO - [67c7a64d] START OPTIONS /donation_api.donationscanapi - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:09:08 - api - INFO - [67c7a64d] END OPTIONS /donation_api.donationscanapi - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 19:09:08 - api - INFO - [279bcd2b] START POST /donation_api.donationscanapi - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:09:08 - api - WARNING - [279bcd2b] END POST /donation_api.donationscanapi - Status: 404 - Duration: 0.004s - User: anonymous
+2026-05-27 19:09:08 - api - INFO - [eb1442e5] START OPTIONS /donation_api.donationdetailapi - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:09:08 - api - INFO - [eb1442e5] END OPTIONS /donation_api.donationdetailapi - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-27 19:09:08 - api - INFO - [c807542d] START GET /donation_api.donationdetailapi - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:09:08 - api - WARNING - [c807542d] END GET /donation_api.donationdetailapi - Status: 404 - Duration: 0.001s - User: anonymous
+2026-05-27 19:11:04 - api - INFO - [0dd13715] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:04 - api - INFO - [0dd13715] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.004s - User: anonymous
+2026-05-27 19:11:04 - api - INFO - [4416785f] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:04 - api - INFO - [4416785f] END GET /user_api._crud - Status: 200 - Duration: 0.012s - User: user_7
+2026-05-27 19:11:04 - api - INFO - [9e686851] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:04 - api - INFO - [9e686851] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-27 19:11:04 - api - INFO - [c95f7ae3] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:04 - api - INFO - [c95f7ae3] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.004s - User: user_7
+2026-05-27 19:11:11 - api - INFO - [fc8f7505] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:11 - api - INFO - [fc8f7505] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-27 19:11:11 - api - INFO - [59a6093a] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:11 - api - INFO - [59a6093a] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_7
+2026-05-27 19:11:11 - api - INFO - [2996fc14] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:11 - api - INFO - [2996fc14] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-27 19:11:11 - api - INFO - [df3e8607] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:11 - api - INFO - [df3e8607] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.001s - User: user_7
+2026-05-27 19:11:15 - api - INFO - [4b5eb830] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:15 - api - INFO - [4b5eb830] END GET /user_api._crud - Status: 200 - Duration: 0.006s - User: user_7
+2026-05-27 19:11:15 - api - INFO - [7568f9f6] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:15 - api - INFO - [7568f9f6] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.004s - User: user_7
+2026-05-27 19:11:17 - api - INFO - [33e1ef82] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:17 - api - INFO - [33e1ef82] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-27 19:11:17 - api - INFO - [46989b42] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:17 - api - INFO - [46989b42] END GET /user_api._crud - Status: 200 - Duration: 0.002s - User: user_7
+2026-05-27 19:11:17 - api - INFO - [b9edb233] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:17 - api - INFO - [b9edb233] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-27 19:11:17 - api - INFO - [49eb5532] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:17 - api - INFO - [49eb5532] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.003s - User: user_7
+2026-05-27 19:11:20 - api - INFO - [08f9f8e2] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:20 - api - INFO - [08f9f8e2] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_7
+2026-05-27 19:11:20 - api - INFO - [27a82b9d] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:20 - api - INFO - [27a82b9d] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.002s - User: user_7
+2026-05-27 19:11:33 - api - INFO - [a36511f5] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:33 - api - INFO - [a36511f5] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 19:11:33 - api - INFO - [ff6c6c5c] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:33 - api - INFO - [ff6c6c5c] END GET /user_api._crud - Status: 200 - Duration: 0.003s - User: user_7
+2026-05-27 19:11:33 - api - INFO - [c3b65066] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:33 - api - INFO - [c3b65066] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-27 19:11:33 - api - INFO - [ee0e2f1a] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:33 - api - INFO - [ee0e2f1a] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.002s - User: user_7
+2026-05-27 19:11:35 - api - INFO - [8293d388] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:35 - api - INFO - [8293d388] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.008s - User: user_7
+2026-05-27 19:11:43 - api - INFO - [47c52eed] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:43 - api - INFO - [47c52eed] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 19:11:43 - api - INFO - [870b370d] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:43 - api - INFO - [870b370d] END GET /user_api._crud - Status: 200 - Duration: 0.006s - User: user_7
+2026-05-27 19:11:43 - api - INFO - [869de86a] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:43 - api - INFO - [869de86a] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-27 19:11:43 - api - INFO - [72052fd9] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:43 - api - INFO - [72052fd9] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.004s - User: user_7
+2026-05-27 19:11:47 - api - INFO - [df400d7c] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:47 - api - INFO - [df400d7c] END GET /user_api._crud - Status: 200 - Duration: 0.002s - User: user_7
+2026-05-27 19:11:47 - api - INFO - [9faccdfe] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:47 - api - INFO - [9faccdfe] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.002s - User: user_7
+2026-05-27 19:11:48 - api - INFO - [091d2776] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:48 - api - INFO - [091d2776] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 19:11:48 - api - INFO - [7355eb06] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:48 - api - INFO - [7355eb06] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 19:11:48 - api - INFO - [7ff076ea] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:48 - api - INFO - [7ff076ea] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.003s - User: user_7
+2026-05-27 19:11:49 - api - INFO - [eb00631d] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:49 - api - INFO - [eb00631d] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.004s - User: user_7
+2026-05-27 19:11:55 - api - INFO - [a431ca73] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:55 - api - INFO - [a431ca73] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-27 19:11:55 - api - INFO - [e359c899] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:55 - api - INFO - [e359c899] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_7
+2026-05-27 19:11:55 - api - INFO - [db441104] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:55 - api - INFO - [db441104] END GET /user_api._crud - Status: 200 - Duration: 0.002s - User: user_7
+2026-05-27 19:11:55 - api - INFO - [a9e807b9] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:55 - api - INFO - [a9e807b9] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 19:11:55 - api - INFO - [02eb52c7] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:11:55 - api - INFO - [02eb52c7] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.001s - User: user_7
+2026-05-27 19:14:56 - api - INFO - [69d109ea] START OPTIONS /donation_api.donationlistapi - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:14:56 - api - INFO - [69d109ea] END OPTIONS /donation_api.donationlistapi - Status: 200 - Duration: 0.001s - User: anonymous
+2026-05-27 19:14:56 - api - INFO - [576c306a] START POST /donation_api.donationlistapi - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:14:56 - api - WARNING - [576c306a] END POST /donation_api.donationlistapi - Status: 400 - Duration: 0.000s - User: anonymous
+2026-05-27 19:14:56 - api - INFO - [50eba6b5] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:14:56 - api - INFO - [50eba6b5] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-27 19:14:56 - api - INFO - [a5171903] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:14:56 - api - INFO - [a5171903] END GET /user_api._crud - Status: 200 - Duration: 0.009s - User: user_7
+2026-05-27 19:14:56 - api - INFO - [65178b05] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:14:56 - api - INFO - [65178b05] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.000s - User: anonymous
+2026-05-27 19:14:56 - api - INFO - [b88120c0] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-05-27 19:14:56 - api - INFO - [b88120c0] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.003s - User: user_7
+2026-07-20 11:51:28 - api - INFO - [4d42e86f] START GET /tcg_api.set_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 11:51:28 - api - INFO - [4d42e86f] END GET /tcg_api.set_list - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 11:51:28 - api - INFO - [a44b599f] START GET /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 11:51:28 - api - INFO - [a44b599f] END GET /tcg_api.card_search - Status: 200 - Duration: 0.004s - User: anonymous
+2026-07-20 11:51:28 - api - INFO - [459b3562] START GET /tcg_api.catalog_filters - User: anonymous - IP: 127.0.0.1
+2026-07-20 11:51:28 - api - INFO - [459b3562] END GET /tcg_api.catalog_filters - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 11:51:28 - api - INFO - [ca1e839a] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 11:51:28 - api - INFO - [ca1e839a] END GET /card_show_api.show_search - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 11:51:28 - api - INFO - [c1d9f518] START GET /card_show_api.show_filters - User: anonymous - IP: 127.0.0.1
+2026-07-20 11:51:28 - api - INFO - [c1d9f518] END GET /card_show_api.show_filters - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 11:51:52 - api - INFO - [9b37218a] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 11:51:52 - api - INFO - [9b37218a] END GET /card_show_api.show_search - Status: 200 - Duration: 0.015s - User: anonymous
+2026-07-20 11:51:52 - api - INFO - [bf576700] START GET /tcg_api.card_detail - User: anonymous - IP: 127.0.0.1
+2026-07-20 11:51:52 - api - INFO - [bf576700] END GET /tcg_api.card_detail - Status: 200 - Duration: 0.003s - User: anonymous
+2026-07-20 13:48:57 - api - INFO - [f0ced81d] START GET /tcg_api.set_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:48:57 - api - INFO - [f0ced81d] END GET /tcg_api.set_list - Status: 200 - Duration: 0.015s - User: anonymous
+2026-07-20 13:48:57 - api - INFO - [8def52fd] START GET /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:48:57 - api - INFO - [8def52fd] END GET /tcg_api.card_search - Status: 200 - Duration: 0.007s - User: anonymous
+2026-07-20 13:48:57 - api - INFO - [ad9ee19b] START GET /tcg_api.card_detail - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:48:57 - api - INFO - [ad9ee19b] END GET /tcg_api.card_detail - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:48:57 - api - INFO - [3f73a7f5] START GET /tcg_api.set_cards - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:48:57 - api - INFO - [3f73a7f5] END GET /tcg_api.set_cards - Status: 200 - Duration: 0.003s - User: anonymous
+2026-07-20 13:48:57 - api - INFO - [8dda8e30] START GET /tcg_api.catalog_filters - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:48:57 - api - INFO - [8dda8e30] END GET /tcg_api.catalog_filters - Status: 200 - Duration: 0.002s - User: anonymous
+2026-07-20 13:48:57 - api - INFO - [286152c3] START GET /tcg_api.movers - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:48:57 - api - INFO - [286152c3] END GET /tcg_api.movers - Status: 200 - Duration: 0.098s - User: anonymous
+2026-07-20 13:49:36 - api - INFO - [b46f79ca] START POST /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:49:37 - api - INFO - [b46f79ca] END POST /user_api._crud - Status: 200 - Duration: 0.235s - User: anonymous
+2026-07-20 13:49:37 - api - INFO - [e7e4f1bb] START POST /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:49:37 - api - INFO - [e7e4f1bb] END POST /user_api._security - Status: 200 - Duration: 0.111s - User: anonymous
+2026-07-20 13:49:37 - api - INFO - [9da58319] START POST /collection_api.collection_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:49:37 - api - INFO - [9da58319] END POST /collection_api.collection_list - Status: 200 - Duration: 0.007s - User: user_8
+2026-07-20 13:49:37 - api - INFO - [e7d6caaf] START POST /collection_api.collection_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:49:37 - api - INFO - [e7d6caaf] END POST /collection_api.collection_list - Status: 200 - Duration: 0.002s - User: user_8
+2026-07-20 13:49:37 - api - INFO - [99405b67] START GET /collection_api.collection_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:49:37 - api - INFO - [99405b67] END GET /collection_api.collection_list - Status: 200 - Duration: 0.001s - User: user_8
+2026-07-20 13:49:37 - api - INFO - [feb3419e] START GET /collection_api.collection_summary - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:49:37 - api - INFO - [feb3419e] END GET /collection_api.collection_summary - Status: 200 - Duration: 0.001s - User: user_8
+2026-07-20 13:49:37 - api - INFO - [7fefc69b] START GET /collection_api.collection_completion - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:49:37 - api - INFO - [7fefc69b] END GET /collection_api.collection_completion - Status: 200 - Duration: 0.007s - User: user_8
+2026-07-20 13:49:37 - api - INFO - [d8a41d57] START POST /collection_api.wantlist_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:49:37 - api - INFO - [d8a41d57] END POST /collection_api.wantlist_list - Status: 200 - Duration: 0.003s - User: user_8
+2026-07-20 13:49:37 - api - INFO - [883c378b] START POST /collection_api.wantlist_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:49:37 - api - INFO - [883c378b] END POST /collection_api.wantlist_list - Status: 200 - Duration: 0.002s - User: user_8
+2026-07-20 13:49:37 - api - INFO - [f767c245] START GET /collection_api.wantlist_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:49:37 - api - INFO - [f767c245] END GET /collection_api.wantlist_list - Status: 200 - Duration: 0.001s - User: user_8
+2026-07-20 13:49:37 - api - INFO - [9320fd0a] START GET /collection_api.show_mode - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:49:37 - api - INFO - [9320fd0a] END GET /collection_api.show_mode - Status: 200 - Duration: 0.001s - User: user_8
+2026-07-20 13:49:37 - api - INFO - [d02bb7be] START GET /collection_api.wantlist_budget - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:49:37 - api - INFO - [d02bb7be] END GET /collection_api.wantlist_budget - Status: 200 - Duration: 0.001s - User: user_8
+2026-07-20 13:50:33 - api - INFO - [003bf252] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:50:33 - api - INFO - [003bf252] END GET /card_show_api.show_search - Status: 200 - Duration: 0.015s - User: anonymous
+2026-07-20 13:50:33 - api - INFO - [dc577dac] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:50:33 - api - INFO - [dc577dac] END GET /card_show_api.show_search - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:50:33 - api - INFO - [d0a9ef94] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:50:33 - api - INFO - [d0a9ef94] END GET /card_show_api.show_search - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:50:33 - api - INFO - [5b44f2ef] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:50:33 - api - INFO - [5b44f2ef] END GET /card_show_api.show_search - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:50:33 - api - INFO - [c620bdee] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:50:33 - api - INFO - [c620bdee] END GET /card_show_api.show_search - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:50:33 - api - INFO - [95624732] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:50:33 - api - INFO - [95624732] END GET /card_show_api.show_search - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:50:33 - api - INFO - [3c94799d] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:50:33 - api - INFO - [3c94799d] END GET /card_show_api.show_search - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:50:33 - api - INFO - [51906891] START GET /card_show_api.show_filters - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:50:33 - api - INFO - [51906891] END GET /card_show_api.show_filters - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:52:33 - api - INFO - [c422f583] START POST /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:52:33 - api - INFO - [c422f583] END POST /user_api._security - Status: 200 - Duration: 0.109s - User: anonymous
+2026-07-20 13:52:33 - api - INFO - [d2b00ea0] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:52:33 - api - INFO - [d2b00ea0] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_9
+2026-07-20 13:52:33 - api - INFO - [f89f0c08] START POST /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:52:33 - api - INFO - [f89f0c08] END POST /card_show_api.show_search - Status: 200 - Duration: 0.003s - User: user_9
+2026-07-20 13:52:33 - api - INFO - [e06973a7] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:52:33 - api - INFO - [e06973a7] END GET /card_show_api.show_search - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:52:33 - api - INFO - [69aced7e] START POST /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:52:33 - api - INFO - [69aced7e] END POST /user_api._crud - Status: 200 - Duration: 0.221s - User: anonymous
+2026-07-20 13:52:33 - api - INFO - [5c931212] START POST /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:52:33 - api - INFO - [5c931212] END POST /user_api._security - Status: 200 - Duration: 0.108s - User: anonymous
+2026-07-20 13:52:33 - api - INFO - [e3b56881] START POST /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:52:33 - api - WARNING - [e3b56881] END POST /card_show_api.show_search - Status: 403 - Duration: 0.001s - User: anonymous
+2026-07-20 13:52:33 - api - INFO - [e60bf3de] START DELETE /card_show_api.show_detail - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:52:33 - api - INFO - [e60bf3de] END DELETE /card_show_api.show_detail - Status: 200 - Duration: 0.002s - User: user_9
+2026-07-20 13:53:51 - api - INFO - [29ea8e8f] START GET /tcg_api.set_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:53:51 - api - INFO - [29ea8e8f] END GET /tcg_api.set_list - Status: 200 - Duration: 0.021s - User: anonymous
+2026-07-20 13:55:16 - api - INFO - [65182009] START GET /tcg_api.set_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:55:16 - api - INFO - [65182009] END GET /tcg_api.set_list - Status: 200 - Duration: 0.009s - User: anonymous
+2026-07-20 13:55:16 - api - INFO - [a1de57b8] START OPTIONS /collection_api.collection_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:55:16 - api - INFO - [a1de57b8] END OPTIONS /collection_api.collection_list - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 13:55:42 - api - INFO - [f5f0fe4d] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:55:42 - api - WARNING - [f5f0fe4d] END GET /user_api._crud - Status: 401 - Duration: 0.004s - User: anonymous
+2026-07-20 13:56:13 - api - INFO - [ac2ac882] START GET /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:56:13 - api - INFO - [ac2ac882] END GET /tcg_api.card_search - Status: 200 - Duration: 0.020s - User: anonymous
+2026-07-20 13:56:13 - api - INFO - [4b0bbc26] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:56:13 - api - INFO - [4b0bbc26] END GET /card_show_api.show_search - Status: 200 - Duration: 0.002s - User: anonymous
+2026-07-20 13:56:13 - api - INFO - [912425ec] START GET /tcg_api.card_detail - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:56:13 - api - INFO - [912425ec] END GET /tcg_api.card_detail - Status: 200 - Duration: 0.003s - User: anonymous
+2026-07-20 13:57:42 - api - INFO - [69b2c5d2] START OPTIONS /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:57:42 - api - INFO - [69b2c5d2] END OPTIONS /card_show_api.show_search - Status: 200 - Duration: 0.002s - User: anonymous
+2026-07-20 13:57:42 - api - INFO - [8ad8ebb0] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:57:42 - api - INFO - [8ad8ebb0] END GET /card_show_api.show_search - Status: 200 - Duration: 0.049s - User: anonymous
+2026-07-20 13:57:43 - api - INFO - [90105bb7] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:57:43 - api - INFO - [90105bb7] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:57:43 - api - INFO - [e4cf232f] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:57:43 - api - WARNING - [e4cf232f] END GET /user_api._crud - Status: 401 - Duration: 0.000s - User: anonymous
+2026-07-20 13:57:54 - api - INFO - [607c5593] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:57:54 - api - INFO - [4b1936a6] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:57:54 - api - INFO - [607c5593] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:57:54 - api - INFO - [4b1936a6] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:57:54 - api - INFO - [bafac614] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:57:54 - api - WARNING - [bafac614] END GET /user_api._crud - Status: 401 - Duration: 0.000s - User: anonymous
+2026-07-20 13:57:54 - api - INFO - [2b88e9ad] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:57:54 - api - WARNING - [2b88e9ad] END GET /user_api._crud - Status: 401 - Duration: 0.000s - User: anonymous
+2026-07-20 13:58:09 - api - INFO - [f182c310] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:09 - api - INFO - [f182c310] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.002s - User: anonymous
+2026-07-20 13:58:09 - api - INFO - [d3bbdf2f] START POST /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:10 - api - WARNING - [d3bbdf2f] END POST /user_api._crud - Status: 400 - Duration: 0.148s - User: anonymous
+2026-07-20 13:58:16 - api - INFO - [e428fdef] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:16 - api - INFO - [e428fdef] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.002s - User: anonymous
+2026-07-20 13:58:16 - api - INFO - [e1c11233] START POST /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:17 - api - INFO - [e1c11233] END POST /user_api._crud - Status: 200 - Duration: 0.261s - User: anonymous
+2026-07-20 13:58:26 - api - INFO - [6d416bd0] START OPTIONS /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:26 - api - INFO - [6d416bd0] END OPTIONS /user_api._security - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:58:26 - api - INFO - [1767c422] START POST /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:26 - api - INFO - [1767c422] END POST /user_api._security - Status: 200 - Duration: 0.145s - User: anonymous
+2026-07-20 13:58:26 - api - INFO - [3af2f45f] START OPTIONS /collection_api.collection_summary - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:26 - api - INFO - [3af2f45f] END OPTIONS /collection_api.collection_summary - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 13:58:26 - api - INFO - [dfbdabc3] START OPTIONS /collection_api.collection_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:26 - api - INFO - [dfbdabc3] END OPTIONS /collection_api.collection_list - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 13:58:26 - api - INFO - [1eac5f2b] START GET /collection_api.collection_summary - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:26 - api - INFO - [b64a1bc7] START GET /collection_api.collection_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:26 - api - INFO - [1eac5f2b] END GET /collection_api.collection_summary - Status: 200 - Duration: 0.004s - User: user_11
+2026-07-20 13:58:26 - api - INFO - [b64a1bc7] END GET /collection_api.collection_list - Status: 200 - Duration: 0.006s - User: user_11
+2026-07-20 13:58:26 - api - INFO - [856b92c3] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:26 - api - INFO - [856b92c3] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 13:58:26 - api - INFO - [4db7ac48] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:26 - api - INFO - [4db7ac48] END GET /user_api._crud - Status: 200 - Duration: 0.003s - User: user_11
+2026-07-20 13:58:26 - api - INFO - [87c18d90] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:26 - api - INFO - [87c18d90] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 13:58:26 - api - INFO - [9cbb9f65] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:26 - api - INFO - [9cbb9f65] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.007s - User: user_11
+2026-07-20 13:58:35 - api - INFO - [e80e57fb] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:35 - api - INFO - [bdce4b40] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:35 - api - INFO - [e80e57fb] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.003s - User: anonymous
+2026-07-20 13:58:35 - api - INFO - [bdce4b40] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.002s - User: anonymous
+2026-07-20 13:58:35 - api - INFO - [0ab67dbf] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:35 - api - INFO - [0ab67dbf] END GET /user_api._crud - Status: 200 - Duration: 0.007s - User: user_11
+2026-07-20 13:58:35 - api - INFO - [88fb04ed] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:35 - api - INFO - [049e43ac] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:35 - api - INFO - [88fb04ed] END GET /user_api._crud - Status: 200 - Duration: 0.002s - User: user_11
+2026-07-20 13:58:35 - api - INFO - [049e43ac] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 13:58:35 - api - INFO - [cd3b360f] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:35 - api - INFO - [cd3b360f] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.002s - User: user_11
+2026-07-20 13:58:35 - api - INFO - [992ba3c0] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:35 - api - INFO - [992ba3c0] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.001s - User: user_11
+2026-07-20 13:58:39 - api - INFO - [168a23b5] START OPTIONS /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:39 - api - INFO - [168a23b5] END OPTIONS /card_show_api.show_search - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 13:58:39 - api - INFO - [7f32685c] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:39 - api - INFO - [7f32685c] END GET /card_show_api.show_search - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:58:39 - api - INFO - [164a0801] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:39 - api - INFO - [164a0801] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_11
+2026-07-20 13:58:39 - api - INFO - [bbcca558] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:39 - api - INFO - [bbcca558] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.002s - User: user_11
+2026-07-20 13:58:44 - api - INFO - [683700d1] START OPTIONS /card_show_api.show_filters - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:44 - api - INFO - [683700d1] END OPTIONS /card_show_api.show_filters - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:58:44 - api - INFO - [473b161e] START GET /card_show_api.show_filters - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:44 - api - INFO - [1ee5462d] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:44 - api - INFO - [1ee5462d] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.009s - User: anonymous
+2026-07-20 13:58:45 - api - INFO - [15dfd190] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:45 - api - INFO - [473b161e] END GET /card_show_api.show_filters - Status: 200 - Duration: 0.016s - User: anonymous
+2026-07-20 13:58:45 - api - INFO - [15dfd190] END GET /user_api._crud - Status: 200 - Duration: 0.003s - User: user_11
+2026-07-20 13:58:45 - api - INFO - [61196593] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:45 - api - INFO - [96eb6726] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:45 - api - INFO - [96eb6726] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:58:45 - api - INFO - [61196593] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_11
+2026-07-20 13:58:45 - api - INFO - [ba816eca] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:45 - api - INFO - [c4f6fae1] START OPTIONS /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:45 - api - INFO - [c4f6fae1] END OPTIONS /card_show_api.show_search - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:58:45 - api - INFO - [ba816eca] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.002s - User: user_11
+2026-07-20 13:58:45 - api - INFO - [0b3258a4] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:58:45 - api - INFO - [0b3258a4] END GET /card_show_api.show_search - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:59:05 - api - INFO - [50f7dd61] START OPTIONS /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:05 - api - INFO - [50f7dd61] END OPTIONS /card_show_api.show_search - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:59:05 - api - INFO - [3c65b732] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:05 - api - INFO - [498c9ae3] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:05 - api - INFO - [498c9ae3] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 13:59:05 - api - INFO - [3c65b732] END GET /card_show_api.show_search - Status: 200 - Duration: 0.026s - User: anonymous
+2026-07-20 13:59:05 - api - INFO - [c4ba7f34] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:05 - api - INFO - [c4ba7f34] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_11
+2026-07-20 13:59:05 - api - INFO - [d61df0bf] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:05 - api - INFO - [d61df0bf] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 13:59:05 - api - INFO - [d46d1003] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:05 - api - INFO - [d46d1003] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.002s - User: user_11
+2026-07-20 13:59:07 - api - INFO - [2474b867] START OPTIONS /tcg_api.catalog_filters - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:07 - api - INFO - [2474b867] END OPTIONS /tcg_api.catalog_filters - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 13:59:07 - api - INFO - [af3e4d74] START GET /tcg_api.catalog_filters - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:07 - api - INFO - [ef301b83] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:07 - api - INFO - [ef301b83] END GET /user_api._crud - Status: 200 - Duration: 0.002s - User: user_11
+2026-07-20 13:59:07 - api - INFO - [0d983191] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:07 - api - INFO - [0d983191] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.003s - User: user_11
+2026-07-20 13:59:07 - api - INFO - [af3e4d74] END GET /tcg_api.catalog_filters - Status: 200 - Duration: 0.017s - User: anonymous
+2026-07-20 13:59:07 - api - INFO - [803f4437] START OPTIONS /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:07 - api - INFO - [803f4437] END OPTIONS /tcg_api.card_search - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 13:59:07 - api - INFO - [98e20839] START GET /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:07 - api - INFO - [98e20839] END GET /tcg_api.card_search - Status: 200 - Duration: 0.024s - User: anonymous
+2026-07-20 13:59:13 - api - INFO - [6095ff11] START OPTIONS /tcg_api.card_detail - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:13 - api - INFO - [6095ff11] END OPTIONS /tcg_api.card_detail - Status: 200 - Duration: 0.002s - User: anonymous
+2026-07-20 13:59:13 - api - INFO - [4d598395] START GET /tcg_api.card_detail - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:13 - api - INFO - [d8fbb51b] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:13 - api - INFO - [d8fbb51b] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 13:59:13 - api - INFO - [649b4cdc] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:13 - api - INFO - [649b4cdc] END GET /user_api._crud - Status: 200 - Duration: 0.002s - User: user_11
+2026-07-20 13:59:13 - api - INFO - [4d598395] END GET /tcg_api.card_detail - Status: 200 - Duration: 0.014s - User: anonymous
+2026-07-20 13:59:13 - api - INFO - [67763ba5] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:13 - api - INFO - [67763ba5] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 13:59:13 - api - INFO - [a4acac50] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:13 - api - INFO - [a4acac50] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.002s - User: user_11
+2026-07-20 13:59:16 - api - INFO - [85f2c3b4] START OPTIONS /collection_api.collection_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:16 - api - INFO - [85f2c3b4] END OPTIONS /collection_api.collection_list - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 13:59:16 - api - INFO - [fc249b2b] START POST /collection_api.collection_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:16 - api - INFO - [fc249b2b] END POST /collection_api.collection_list - Status: 200 - Duration: 0.007s - User: user_11
+2026-07-20 13:59:22 - api - INFO - [d13f8068] START OPTIONS /collection_api.collection_summary - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:22 - api - INFO - [d13f8068] END OPTIONS /collection_api.collection_summary - Status: 200 - Duration: 0.002s - User: anonymous
+2026-07-20 13:59:22 - api - INFO - [e51cf353] START OPTIONS /collection_api.collection_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:22 - api - INFO - [e51cf353] END OPTIONS /collection_api.collection_list - Status: 200 - Duration: 0.002s - User: anonymous
+2026-07-20 13:59:22 - api - INFO - [3637514c] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:22 - api - INFO - [3637514c] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 13:59:22 - api - INFO - [db8d0b2a] START GET /collection_api.collection_summary - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:22 - api - INFO - [d73b858c] START GET /collection_api.collection_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:22 - api - INFO - [9b33a03d] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:22 - api - INFO - [db8d0b2a] END GET /collection_api.collection_summary - Status: 200 - Duration: 0.011s - User: user_11
+2026-07-20 13:59:22 - api - INFO - [d73b858c] END GET /collection_api.collection_list - Status: 200 - Duration: 0.010s - User: user_11
+2026-07-20 13:59:22 - api - INFO - [9b33a03d] END GET /user_api._crud - Status: 200 - Duration: 0.007s - User: user_11
+2026-07-20 13:59:22 - api - INFO - [f1aa73d5] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:22 - api - INFO - [f1aa73d5] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 13:59:22 - api - INFO - [a6f037a5] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:22 - api - INFO - [a6f037a5] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.002s - User: user_11
+2026-07-20 13:59:24 - api - INFO - [05944d00] START OPTIONS /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:24 - api - INFO - [05944d00] END OPTIONS /card_show_api.show_search - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 13:59:24 - api - INFO - [35b09606] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:24 - api - INFO - [35b09606] END GET /card_show_api.show_search - Status: 200 - Duration: 0.005s - User: anonymous
+2026-07-20 13:59:24 - api - INFO - [8f52745c] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:24 - api - INFO - [8f52745c] END GET /user_api._crud - Status: 200 - Duration: 0.003s - User: user_11
+2026-07-20 13:59:25 - api - INFO - [55b5509c] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:25 - api - INFO - [55b5509c] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.002s - User: user_11
+2026-07-20 13:59:27 - api - INFO - [bd321d32] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:27 - api - INFO - [bd321d32] END GET /user_api._crud - Status: 200 - Duration: 0.005s - User: user_11
+2026-07-20 13:59:27 - api - INFO - [4ba46dc2] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:27 - api - INFO - [494506e4] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:27 - api - INFO - [4ba46dc2] END GET /user_api._crud - Status: 200 - Duration: 0.002s - User: user_11
+2026-07-20 13:59:27 - api - INFO - [494506e4] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.003s - User: user_11
+2026-07-20 13:59:27 - api - INFO - [720aa667] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 13:59:27 - api - INFO - [720aa667] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.003s - User: user_11
+2026-07-20 14:01:01 - api - INFO - [14729b92] START OPTIONS /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:01 - api - INFO - [2f1dd4d2] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:01 - api - INFO - [14729b92] END OPTIONS /card_show_api.show_search - Status: 200 - Duration: 0.013s - User: anonymous
+2026-07-20 14:01:01 - api - INFO - [2f1dd4d2] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.013s - User: anonymous
+2026-07-20 14:01:01 - api - INFO - [c6613a1e] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:01 - api - INFO - [cc3e1e3d] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:01 - api - INFO - [cc3e1e3d] END GET /user_api._crud - Status: 200 - Duration: 0.014s - User: user_11
+2026-07-20 14:01:01 - api - INFO - [c6613a1e] END GET /card_show_api.show_search - Status: 200 - Duration: 0.015s - User: anonymous
+2026-07-20 14:01:01 - api - INFO - [62680501] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:01 - api - INFO - [62680501] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 14:01:01 - api - INFO - [0df591ac] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:01 - api - INFO - [0df591ac] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.002s - User: user_11
+2026-07-20 14:01:02 - api - INFO - [1fea2e3d] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:02 - api - INFO - [1fea2e3d] END GET /user_api._crud - Status: 200 - Duration: 0.002s - User: user_11
+2026-07-20 14:01:02 - api - INFO - [99c6695c] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:02 - api - INFO - [99c6695c] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.004s - User: user_11
+2026-07-20 14:01:03 - api - INFO - [7f0a5470] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:03 - api - INFO - [7f0a5470] END GET /card_show_api.show_search - Status: 200 - Duration: 0.002s - User: anonymous
+2026-07-20 14:01:03 - api - INFO - [f1cea57b] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:03 - api - INFO - [f1cea57b] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_11
+2026-07-20 14:01:03 - api - INFO - [ed786866] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:03 - api - INFO - [ed786866] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.002s - User: user_11
+2026-07-20 14:01:08 - api - INFO - [6e5cecdb] START OPTIONS /tcg_api.catalog_filters - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:08 - api - INFO - [6e5cecdb] END OPTIONS /tcg_api.catalog_filters - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 14:01:08 - api - INFO - [d90ce625] START GET /tcg_api.catalog_filters - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:08 - api - INFO - [b50ac45a] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:08 - api - INFO - [b50ac45a] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 14:01:08 - api - INFO - [68a03cbd] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:08 - api - INFO - [68a03cbd] END GET /user_api._crud - Status: 200 - Duration: 0.002s - User: user_11
+2026-07-20 14:01:08 - api - INFO - [d90ce625] END GET /tcg_api.catalog_filters - Status: 200 - Duration: 0.013s - User: anonymous
+2026-07-20 14:01:08 - api - INFO - [8e417daa] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:08 - api - INFO - [8e417daa] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 14:01:08 - api - INFO - [b1bbef60] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:08 - api - INFO - [55a83f16] START OPTIONS /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:08 - api - INFO - [55a83f16] END OPTIONS /tcg_api.card_search - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 14:01:08 - api - INFO - [1c6859ec] START GET /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:08 - api - INFO - [b1bbef60] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.006s - User: user_11
+2026-07-20 14:01:08 - api - INFO - [1c6859ec] END GET /tcg_api.card_search - Status: 200 - Duration: 0.008s - User: anonymous
+2026-07-20 14:01:11 - api - INFO - [158562ec] START OPTIONS /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:11 - api - INFO - [158562ec] END OPTIONS /tcg_api.card_search - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 14:01:11 - api - INFO - [745c806e] START GET /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:11 - api - INFO - [745c806e] END GET /tcg_api.card_search - Status: 200 - Duration: 0.008s - User: anonymous
+2026-07-20 14:01:13 - api - INFO - [903a80d6] START OPTIONS /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:13 - api - INFO - [903a80d6] END OPTIONS /tcg_api.card_search - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 14:01:13 - api - INFO - [09ef275b] START GET /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:13 - api - INFO - [09ef275b] END GET /tcg_api.card_search - Status: 200 - Duration: 0.003s - User: anonymous
+2026-07-20 14:01:16 - api - INFO - [6052d6dd] START GET /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:16 - api - INFO - [6052d6dd] END GET /tcg_api.card_search - Status: 200 - Duration: 0.002s - User: anonymous
+2026-07-20 14:01:19 - api - INFO - [7deeefbe] START OPTIONS /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:19 - api - INFO - [7deeefbe] END OPTIONS /tcg_api.card_search - Status: 200 - Duration: 0.002s - User: anonymous
+2026-07-20 14:01:19 - api - INFO - [eb8646e9] START GET /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:19 - api - INFO - [eb8646e9] END GET /tcg_api.card_search - Status: 200 - Duration: 0.011s - User: anonymous
+2026-07-20 14:01:20 - api - INFO - [d9588ee5] START OPTIONS /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:20 - api - INFO - [d9588ee5] END OPTIONS /tcg_api.card_search - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 14:01:20 - api - INFO - [6771b411] START GET /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:01:20 - api - INFO - [6771b411] END GET /tcg_api.card_search - Status: 200 - Duration: 0.006s - User: anonymous
+2026-07-20 14:03:48 - api - INFO - [9c083406] START GET /index - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:03:48 - api - INFO - [9c083406] END GET /index - Status: 200 - Duration: 0.028s - User: anonymous
+2026-07-20 14:03:48 - api - INFO - [971e7338] START GET /static - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:03:48 - api - INFO - [4185f729] START GET /static - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:03:48 - api - INFO - [971e7338] END GET /static - Status: 200 - Duration: 0.015s - User: anonymous
+2026-07-20 14:03:48 - api - INFO - [4185f729] END GET /static - Status: 200 - Duration: 0.014s - User: anonymous
+2026-07-20 14:03:49 - api - INFO - [da9a2288] START GET /unknown - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:03:49 - api - WARNING - [da9a2288] END GET /unknown - Status: 404 - Duration: 0.015s - User: anonymous
+2026-07-20 14:14:38 - api - INFO - [b5996420] START OPTIONS /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:38 - api - INFO - [b5996420] END OPTIONS /card_show_api.show_search - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 14:14:38 - api - INFO - [36ebdaad] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:38 - api - INFO - [f27a4e07] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:38 - api - INFO - [f27a4e07] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 14:14:38 - api - INFO - [e0666aef] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:38 - api - INFO - [36ebdaad] END GET /card_show_api.show_search - Status: 200 - Duration: 0.056s - User: anonymous
+2026-07-20 14:14:38 - api - WARNING - [e0666aef] END GET /user_api._crud - Status: 401 - Duration: 0.002s - User: anonymous
+2026-07-20 14:14:39 - api - INFO - [853614e1] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:39 - api - WARNING - [853614e1] END GET /user_api._crud - Status: 401 - Duration: 0.001s - User: anonymous
+2026-07-20 14:14:39 - api - INFO - [828fd4a9] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:39 - api - WARNING - [828fd4a9] END GET /user_api._crud - Status: 401 - Duration: 0.002s - User: anonymous
+2026-07-20 14:14:48 - api - INFO - [3a670063] START OPTIONS /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:48 - api - INFO - [3a670063] END OPTIONS /user_api._security - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 14:14:48 - api - INFO - [ba8f72a2] START POST /user_api._security - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:48 - api - INFO - [ba8f72a2] END POST /user_api._security - Status: 200 - Duration: 0.150s - User: anonymous
+2026-07-20 14:14:48 - api - INFO - [acba60ee] START OPTIONS /collection_api.collection_summary - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:48 - api - INFO - [acba60ee] END OPTIONS /collection_api.collection_summary - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 14:14:48 - api - INFO - [bf73ab21] START OPTIONS /collection_api.collection_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:48 - api - INFO - [bf73ab21] END OPTIONS /collection_api.collection_list - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 14:14:49 - api - INFO - [3f3bc65e] START GET /collection_api.collection_summary - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:49 - api - INFO - [ad9bf53c] START GET /collection_api.collection_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:49 - api - INFO - [369e675a] START OPTIONS /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:49 - api - INFO - [369e675a] END OPTIONS /user_api._crud - Status: 200 - Duration: 0.002s - User: anonymous
+2026-07-20 14:14:49 - api - INFO - [04087e27] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:49 - api - INFO - [3f3bc65e] END GET /collection_api.collection_summary - Status: 200 - Duration: 0.019s - User: user_11
+2026-07-20 14:14:49 - api - INFO - [04087e27] END GET /user_api._crud - Status: 200 - Duration: 0.003s - User: user_11
+2026-07-20 14:14:49 - api - INFO - [ad9bf53c] END GET /collection_api.collection_list - Status: 200 - Duration: 0.018s - User: user_11
+2026-07-20 14:14:49 - api - INFO - [6de5d397] START OPTIONS /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:49 - api - INFO - [6de5d397] END OPTIONS /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 14:14:49 - api - INFO - [f620b95c] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:49 - api - INFO - [f620b95c] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.004s - User: user_11
+2026-07-20 14:14:51 - api - INFO - [156aa0d8] START OPTIONS /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:51 - api - INFO - [156aa0d8] END OPTIONS /card_show_api.show_search - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 14:14:51 - api - INFO - [bb8621b6] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:51 - api - INFO - [bb8621b6] END GET /card_show_api.show_search - Status: 200 - Duration: 0.002s - User: anonymous
+2026-07-20 14:14:51 - api - INFO - [23349b5b] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:51 - api - INFO - [23349b5b] END GET /user_api._crud - Status: 200 - Duration: 0.001s - User: user_11
+2026-07-20 14:14:51 - api - INFO - [70f208a6] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:51 - api - INFO - [70f208a6] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.007s - User: user_11
+2026-07-20 14:14:53 - api - INFO - [bf6a6cf2] START OPTIONS /tcg_api.catalog_filters - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:53 - api - INFO - [bf6a6cf2] END OPTIONS /tcg_api.catalog_filters - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 14:14:53 - api - INFO - [f50b0ba6] START GET /tcg_api.catalog_filters - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:53 - api - INFO - [3a6e9f5f] START GET /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:53 - api - INFO - [3a6e9f5f] END GET /user_api._crud - Status: 200 - Duration: 0.002s - User: user_11
+2026-07-20 14:14:53 - api - INFO - [57e88dab] START GET /subscription_api.subscriptionstatus - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:53 - api - INFO - [57e88dab] END GET /subscription_api.subscriptionstatus - Status: 200 - Duration: 0.002s - User: user_11
+2026-07-20 14:14:53 - api - INFO - [f50b0ba6] END GET /tcg_api.catalog_filters - Status: 200 - Duration: 0.042s - User: anonymous
+2026-07-20 14:14:53 - api - INFO - [16bda6e2] START OPTIONS /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:53 - api - INFO - [16bda6e2] END OPTIONS /tcg_api.card_search - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 14:14:53 - api - INFO - [088cbc28] START GET /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:53 - api - INFO - [088cbc28] END GET /tcg_api.card_search - Status: 200 - Duration: 0.009s - User: anonymous
+2026-07-20 14:14:56 - api - INFO - [881e8f80] START OPTIONS /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:56 - api - INFO - [881e8f80] END OPTIONS /tcg_api.card_search - Status: 200 - Duration: 0.000s - User: anonymous
+2026-07-20 14:14:56 - api - INFO - [727cc8fe] START GET /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:14:56 - api - INFO - [727cc8fe] END GET /tcg_api.card_search - Status: 200 - Duration: 0.015s - User: anonymous
+2026-07-20 14:15:01 - api - INFO - [84da4026] START OPTIONS /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:15:01 - api - INFO - [84da4026] END OPTIONS /tcg_api.card_search - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 14:15:01 - api - INFO - [6621ad8c] START GET /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:15:01 - api - INFO - [6621ad8c] END GET /tcg_api.card_search - Status: 200 - Duration: 0.028s - User: anonymous
+2026-07-20 14:15:04 - api - INFO - [3f8d38da] START OPTIONS /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:15:04 - api - INFO - [3f8d38da] END OPTIONS /tcg_api.card_search - Status: 200 - Duration: 0.003s - User: anonymous
+2026-07-20 14:15:04 - api - INFO - [b19df7b5] START GET /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 14:15:04 - api - INFO - [b19df7b5] END GET /tcg_api.card_search - Status: 200 - Duration: 0.036s - User: anonymous
