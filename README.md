@@ -42,18 +42,59 @@ python main.py               # serves on http://localhost:8288
 
 The seed data is four Base Set cards so a fresh clone renders something. To pull the
 real catalog, get a free key at <https://dev.pokemontcg.io> and set
-`POKEMON_TCG_API_KEY` in `.env`:
+`POKEMON_TCG_API_KEY` in `.env`, then use **`sync_catalog.py`** from the repo root:
 
 ```bash
-flask tcg sync-sets                  # set list only (fast)
-flask tcg sync-cards --set-id base1  # one set
-flask tcg sync-all --limit-sets 5    # smoke test
-flask tcg sync-all                   # full catalog (~20k cards, slow)
-flask tcg refresh-prices             # re-pull prices, record daily snapshots
+python sync_catalog.py --sets            # set list only (fast, ~1 min)
+python sync_catalog.py --set base1       # one set's cards
+python sync_catalog.py --all --limit 5   # smoke test (first 5 sets)
+python sync_catalog.py --all             # full catalog (~20k cards, 10-20 min)
+python sync_catalog.py --refresh         # re-pull prices, record daily snapshots
 ```
 
-Run `refresh-prices` on a daily schedule to build the price history that powers
-portfolio charts and the `/api/movers` endpoint.
+> **Why a script and not `flask tcg ...`?** This project imports its app with
+> `from __init__ import app`, which the Flask CLI cannot resolve, so `flask tcg`
+> subcommands fail to load. `sync_catalog.py` runs from the repo root where that
+> import works. It exits non-zero on failure, so it is safe for cron.
+
+Run `--refresh` on a daily schedule to build the price history that powers portfolio
+charts and the `/api/movers` endpoint (movers need at least two days of snapshots).
+
+## Production data setup
+
+The card catalog lives in the database, and **production uses a different database
+than local dev** — MySQL (when `DB_ENDPOINT`/`DB_USERNAME`/`DB_PASSWORD` are set)
+instead of local SQLite. Your local sync does **not** carry over. The catalog is
+rebuildable by design (backup/restore deliberately skips it), so you regenerate it
+against the production DB once, on first deploy:
+
+```bash
+# On the production host, from the backend directory (venv active, or inside the
+# app container — see below). POKEMON_TCG_API_KEY and DB_* must be set.
+
+python -c "import main"                 # optional: confirms the app imports cleanly
+flask custom generate_data             # create tcg_* tables + seed sample cards & shows
+python sync_catalog.py --all           # pull the full catalog into the prod DB
+```
+
+Then add a daily cron for prices (adjust paths to your install):
+
+```cron
+0 6 * * * cd /path/to/backend && ./venv/bin/python sync_catalog.py --refresh >> logs/price-sync.log 2>&1
+```
+
+### If the backend runs in Docker
+
+The app runs inside the container, so run the commands there and they hit the MySQL
+service defined in `docker-compose.yml`:
+
+```bash
+docker compose exec <app-service> flask custom generate_data
+docker compose exec <app-service> python sync_catalog.py --all
+```
+
+Put the daily `--refresh` cron on the **host**, wrapping the same `docker compose exec`
+call, so it survives container restarts.
 
 ## API
 
