@@ -55,8 +55,15 @@ def main(argv=None):
     args = build_parser().parse_args(argv)
 
     with app.app_context():
-        # Idempotent: safe whether or not `flask custom generate_data` has run.
-        db.create_all()
+        # Deliberately does NOT create tables. This module only imports the
+        # catalog models, so a create_all() here would build tcg_sets/tcg_cards
+        # and nothing else -- leaving a half-initialized database where signup
+        # and /api/shows return 500. Table creation belongs to init_db.py, which
+        # imports every model. Fail loudly instead.
+        if not db.inspect(db.engine).has_table('tcg_sets'):
+            print("Catalog tables are missing. Run `python init_db.py` first.",
+                  file=sys.stderr)
+            return 1
 
         try:
             if args.all:

@@ -822,3 +822,15 @@
 2026-07-20 14:15:04 - api - INFO - [3f8d38da] END OPTIONS /tcg_api.card_search - Status: 200 - Duration: 0.003s - User: anonymous
 2026-07-20 14:15:04 - api - INFO - [b19df7b5] START GET /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
 2026-07-20 14:15:04 - api - INFO - [b19df7b5] END GET /tcg_api.card_search - Status: 200 - Duration: 0.036s - User: anonymous
+2026-07-20 15:09:15 - api - INFO - [216c5d25] START GET /tcg_api.set_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 15:09:15 - api - INFO - [216c5d25] END GET /tcg_api.set_list - Status: 200 - Duration: 0.062s - User: anonymous
+2026-07-20 15:09:15 - api - INFO - [888b36a0] START GET /tcg_api.catalog_filters - User: anonymous - IP: 127.0.0.1
+2026-07-20 15:09:15 - api - INFO - [888b36a0] END GET /tcg_api.catalog_filters - Status: 200 - Duration: 0.009s - User: anonymous
+2026-07-20 15:09:15 - api - INFO - [fbca4887] START GET /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 15:09:15 - api - INFO - [fbca4887] END GET /tcg_api.card_search - Status: 200 - Duration: 0.017s - User: anonymous
+2026-07-20 15:09:15 - api - INFO - [ee9fca94] START GET /index - User: anonymous - IP: 127.0.0.1
+2026-07-20 15:09:15 - api - INFO - [ee9fca94] END GET /index - Status: 200 - Duration: 0.007s - User: anonymous
+2026-07-20 15:09:15 - api - INFO - [0a61e580] START GET /login - User: anonymous - IP: 127.0.0.1
+2026-07-20 15:09:15 - api - INFO - [0a61e580] END GET /login - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 18:40:03 - api - INFO - [e5f8adbe] START POST /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 18:40:03 - api - INFO - [e5f8adbe] END POST /user_api._crud - Status: 200 - Duration: 0.243s - User: anonymous
