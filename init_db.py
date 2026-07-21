@@ -32,6 +32,38 @@ import main
 from __init__ import app, db
 
 
+# The seed functions main.generate_data calls, in dependency order. We invoke
+# these directly rather than main.generate_data.callback(), because that command
+# is wrapped in Flask's @with_appcontext and raises "no active click context"
+# when called outside the CLI.
+SEED_FUNCTIONS = [
+    'initUsers', 'initSections', 'initGroups', 'initChannels', 'initPosts',
+    'initNestPosts', 'initVotes', 'initSavedLocations', 'initSubscriptions',
+    'initCatalog', 'initCollection', 'initCardShows',
+]
+
+
+def seed():
+    """
+    Run every seed function, isolating failures the way generate_data does.
+
+    Wrapped in an app context because not every init function pushes its own
+    (initSubscriptions in particular assumes one is already active, since the
+    Flask CLI provided it via @with_appcontext). Nesting is safe for the ones
+    that do push their own.
+    """
+    with app.app_context():
+        for name in SEED_FUNCTIONS:
+            fn = getattr(main, name, None)
+            if fn is None:
+                print(f"  - {name}: not found, skipping")
+                continue
+            try:
+                fn()
+            except Exception as e:  # noqa: BLE001 — one bad seed shouldn't abort the rest
+                print(f"  - {name} failed: {e}")
+
+
 def create_tables():
     with app.app_context():
         db.create_all()
@@ -54,8 +86,7 @@ def main_entry(argv=None):
 
         if not args.tables:
             print("\nSeeding baseline data…")
-            # generate_data is a click command; .callback is the plain function.
-            main.generate_data.callback()
+            seed()
     except Exception as e:  # noqa: BLE001 — clean non-zero exit for CI/cron
         print(f"Initialization failed: {e}", file=sys.stderr)
         return 1
