@@ -834,3 +834,81 @@
 2026-07-20 15:09:15 - api - INFO - [0a61e580] END GET /login - Status: 200 - Duration: 0.001s - User: anonymous
 2026-07-20 18:40:03 - api - INFO - [e5f8adbe] START POST /user_api._crud - User: anonymous - IP: 127.0.0.1
 2026-07-20 18:40:03 - api - INFO - [e5f8adbe] END POST /user_api._crud - Status: 200 - Duration: 0.243s - User: anonymous
+2026-07-20 19:21:48 - api - INFO - [68742c6b] START GET /tcg_api.set_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:21:48 - api - INFO - [68742c6b] END GET /tcg_api.set_list - Status: 200 - Duration: 0.079s - User: anonymous
+2026-07-20 19:21:48 - api - INFO - [4a15a25e] START GET /tcg_api.set_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:21:48 - api - INFO - [4a15a25e] END GET /tcg_api.set_list - Status: 200 - Duration: 0.008s - User: anonymous
+2026-07-20 19:21:48 - api - INFO - [e049a70b] START GET /tcg_api.set_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:21:48 - api - INFO - [e049a70b] END GET /tcg_api.set_list - Status: 200 - Duration: 0.008s - User: anonymous
+2026-07-20 19:21:48 - api - INFO - [3d50d1e0] START GET /tcg_api.set_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:21:48 - api - INFO - [3d50d1e0] END GET /tcg_api.set_list - Status: 200 - Duration: 0.008s - User: anonymous
+2026-07-20 19:21:48 - api - INFO - [cfdbeaef] START GET /tcg_api.set_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:21:48 - api - INFO - [cfdbeaef] END GET /tcg_api.set_list - Status: 200 - Duration: 0.008s - User: anonymous
+2026-07-20 19:28:20 - api - INFO - [2f4be13f] START GET /index - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:28:20 - api - INFO - [2f4be13f] END GET /index - Status: 200 - Duration: 0.047s - User: anonymous
+2026-07-20 19:28:20 - api - INFO - [b8ad90a1] START GET /login - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:28:20 - api - INFO - [b8ad90a1] END GET /login - Status: 200 - Duration: 0.002s - User: anonymous
+2026-07-20 19:28:20 - api - INFO - [a5c98c13] START GET /unknown - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:28:20 - api - WARNING - [a5c98c13] END GET /unknown - Status: 404 - Duration: 0.001s - User: anonymous
+2026-07-20 19:28:20 - api - INFO - [5669d136] START POST /unknown - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:28:20 - api - WARNING - [5669d136] END POST /unknown - Status: 404 - Duration: 0.000s - User: anonymous
+2026-07-20 19:28:20 - api - INFO - [9134e0e0] START POST /login - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:28:21 - api - INFO - [9134e0e0] END POST /login - Status: 302 - Duration: 0.108s - User: anonymous
+2026-07-20 19:28:21 - api - INFO - [676a4ad9] START GET /index - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:28:21 - api - INFO - [676a4ad9] END GET /index - Status: 200 - Duration: 0.002s - User: anonymous
+2026-07-20 19:28:21 - api - INFO - [7b220200] START GET /utable - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:28:21 - api - INFO - [7b220200] END GET /utable - Status: 200 - Duration: 0.011s - User: anonymous
+2026-07-20 19:28:21 - api - INFO - [2a8e0c49] START GET /u2table - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:28:21 - api - INFO - [2a8e0c49] END GET /u2table - Status: 200 - Duration: 0.004s - User: anonymous
+2026-07-20 19:28:42 - api - INFO - [7949c336] START GET /index - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:28:42 - api - INFO - [7949c336] END GET /index - Status: 200 - Duration: 0.045s - User: anonymous
+2026-07-20 19:29:03 - api - INFO - [5ca87429] START GET /index - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:03 - api - INFO - [5ca87429] END GET /index - Status: 200 - Duration: 0.044s - User: anonymous
+2026-07-20 19:29:03 - api - INFO - [c14948cf] START POST /login - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:03 - api - INFO - [c14948cf] END POST /login - Status: 302 - Duration: 0.107s - User: anonymous
+2026-07-20 19:29:03 - api - INFO - [15ba5854] START GET /index - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:03 - api - INFO - [15ba5854] END GET /index - Status: 200 - Duration: 0.002s - User: anonymous
+2026-07-20 19:29:03 - api - INFO - [84595e20] START POST /set_user_role - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:03 - api - INFO - [84595e20] END POST /set_user_role - Status: 200 - Duration: 0.003s - User: anonymous
+2026-07-20 19:29:03 - api - INFO - [39f759c5] START POST /set_user_role - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:03 - api - INFO - [39f759c5] END POST /set_user_role - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 19:29:03 - api - INFO - [98303ff7] START POST /set_user_role - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:03 - api - WARNING - [98303ff7] END POST /set_user_role - Status: 400 - Duration: 0.001s - User: anonymous
+2026-07-20 19:29:03 - api - INFO - [dccc1799] START POST /set_user_role - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:03 - api - WARNING - [dccc1799] END POST /set_user_role - Status: 400 - Duration: 0.000s - User: anonymous
+2026-07-20 19:29:03 - api - INFO - [8fea86ac] START POST /set_user_tier - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:03 - api - INFO - [8fea86ac] END POST /set_user_tier - Status: 200 - Duration: 0.003s - User: anonymous
+2026-07-20 19:29:03 - api - INFO - [bf11937c] START POST /set_user_tier - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:03 - api - INFO - [bf11937c] END POST /set_user_tier - Status: 200 - Duration: 0.002s - User: anonymous
+2026-07-20 19:29:03 - api - INFO - [58611c83] START POST /set_user_tier - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:03 - api - WARNING - [58611c83] END POST /set_user_tier - Status: 400 - Duration: 0.000s - User: anonymous
+2026-07-20 19:29:03 - api - INFO - [81a96736] START DELETE /delete_user - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:03 - api - WARNING - [81a96736] END DELETE /delete_user - Status: 400 - Duration: 0.000s - User: anonymous
+2026-07-20 19:29:03 - api - INFO - [14520612] START POST /reset_password - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:03 - api - INFO - [14520612] END POST /reset_password - Status: 200 - Duration: 0.109s - User: anonymous
+2026-07-20 19:29:03 - api - INFO - [b3e1c271] START DELETE /delete_user - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:03 - api - INFO - [b3e1c271] END DELETE /delete_user - Status: 200 - Duration: 0.004s - User: anonymous
+2026-07-20 19:29:20 - api - INFO - [d8b5cf3e] START POST /user_api._crud - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:20 - api - INFO - [d8b5cf3e] END POST /user_api._crud - Status: 200 - Duration: 0.234s - User: anonymous
+2026-07-20 19:29:20 - api - INFO - [f6a8972c] START POST /login - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:20 - api - INFO - [f6a8972c] END POST /login - Status: 302 - Duration: 0.109s - User: anonymous
+2026-07-20 19:29:20 - api - INFO - [29073e4e] START GET /index - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:20 - api - INFO - [29073e4e] END GET /index - Status: 200 - Duration: 0.033s - User: anonymous
+2026-07-20 19:29:20 - api - INFO - [952f4fa7] START POST /set_user_role - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:20 - api - WARNING - [952f4fa7] END POST /set_user_role - Status: 403 - Duration: 0.000s - User: anonymous
+2026-07-20 19:29:20 - api - INFO - [1d880911] START POST /set_user_tier - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:20 - api - WARNING - [1d880911] END POST /set_user_tier - Status: 403 - Duration: 0.000s - User: anonymous
+2026-07-20 19:29:20 - api - INFO - [962be295] START DELETE /delete_user - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:20 - api - WARNING - [962be295] END DELETE /delete_user - Status: 403 - Duration: 0.000s - User: anonymous
+2026-07-20 19:29:20 - api - INFO - [f281fe77] START POST /reset_password - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:20 - api - WARNING - [f281fe77] END POST /reset_password - Status: 403 - Duration: 0.000s - User: anonymous
+2026-07-20 19:29:20 - api - INFO - [b4dbf06b] START GET /tcg_api.set_list - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:20 - api - INFO - [b4dbf06b] END GET /tcg_api.set_list - Status: 200 - Duration: 0.048s - User: anonymous
+2026-07-20 19:29:20 - api - INFO - [ba737682] START GET /tcg_api.card_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:20 - api - INFO - [ba737682] END GET /tcg_api.card_search - Status: 200 - Duration: 0.002s - User: anonymous
+2026-07-20 19:29:20 - api - INFO - [ba06a330] START GET /card_show_api.show_search - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:20 - api - INFO - [ba06a330] END GET /card_show_api.show_search - Status: 200 - Duration: 0.001s - User: anonymous
+2026-07-20 19:29:20 - api - INFO - [415f1794] START GET /tcg_api.catalog_filters - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:20 - api - INFO - [415f1794] END GET /tcg_api.catalog_filters - Status: 200 - Duration: 0.009s - User: anonymous
+2026-07-20 19:29:20 - api - INFO - [0002458d] START GET /tcg_api.card_detail - User: anonymous - IP: 127.0.0.1
+2026-07-20 19:29:20 - api - INFO - [0002458d] END GET /tcg_api.card_detail - Status: 200 - Duration: 0.002s - User: anonymous

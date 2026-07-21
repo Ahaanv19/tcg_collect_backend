@@ -1,57 +1,188 @@
 {% extends "layouts/base.html" %}
 {% set project = "Home" %}
 
+{% block style %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --tcg-violet: #7c3aed;
+    --tcg-violet-2: #a78bfa;
+    --tcg-gold: #f59e0b;
+    --tcg-glass: rgba(20, 14, 35, 0.55);
+    --tcg-border: rgba(167, 139, 250, 0.18);
+    --tcg-text: #ede9fe;
+    --tcg-muted: #a99fc4;
+  }
+  body { font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+  .tcg-wrap { max-width: 1180px; margin: 0 auto; padding: 3.2rem 1.25rem 4rem; }
+
+  .tcg-hero { text-align: center; margin-bottom: 2.6rem; }
+  .tcg-status {
+    display: inline-flex; align-items: center; gap: .5rem;
+    padding: .4rem .9rem; border-radius: 999px; font-size: .78rem; font-weight: 700;
+    letter-spacing: .08em; text-transform: uppercase;
+    color: #b8f5d0; background: rgba(16, 185, 129, .12);
+    border: 1px solid rgba(16, 185, 129, .35); backdrop-filter: blur(8px);
+  }
+  .tcg-status .dot { width: .55rem; height: .55rem; border-radius: 999px; background: #22c55e;
+    box-shadow: 0 0 0 0 rgba(34,197,94,.6); animation: tcgpulse 2.4s infinite; }
+  @keyframes tcgpulse { 0%{box-shadow:0 0 0 0 rgba(34,197,94,.5)} 70%{box-shadow:0 0 0 .6rem rgba(34,197,94,0)} 100%{box-shadow:0 0 0 0 rgba(34,197,94,0)} }
+
+  .tcg-mark-lg {
+    width: 92px; height: 92px; border-radius: 24px; margin: 0 auto 1.2rem;
+    display: flex; align-items: center; justify-content: center; font-size: 2.6rem; color: #fff;
+    background: linear-gradient(135deg, var(--tcg-violet), var(--tcg-violet-2));
+    box-shadow: 0 22px 48px -20px rgba(124,58,237,.75);
+  }
+
+  .tcg-title {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 700;
+    font-size: clamp(2.6rem, 6vw, 4.6rem); line-height: 1.02; margin: 1.1rem 0 .5rem;
+    background: linear-gradient(120deg, #ffffff 0%, #ddd6fe 40%, var(--tcg-violet-2) 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    letter-spacing: -.02em;
+  }
+  .tcg-sub { color: var(--tcg-muted); font-size: 1.08rem; max-width: 44rem; margin: 0 auto; line-height: 1.6; }
+
+  .tcg-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin: 2.4rem 0; }
+  .tcg-stat {
+    padding: 1.15rem 1.25rem; border-radius: 18px; background: var(--tcg-glass);
+    border: 1px solid var(--tcg-border); backdrop-filter: blur(14px);
+    box-shadow: 0 24px 50px -34px rgba(0,0,0,.7);
+  }
+  .tcg-stat .k { font-size: 1.6rem; font-weight: 800; color: #fff; letter-spacing: -.02em; }
+  .tcg-stat .l { color: var(--tcg-muted); font-size: .8rem; margin-top: .15rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; }
+  .tcg-stat .k small { font-size: .9rem; color: var(--tcg-violet-2); font-weight: 700; }
+  .tcg-stat.gold .k { color: var(--tcg-gold); }
+
+  .tcg-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.15rem; }
+  .tcg-card {
+    position: relative; overflow: hidden; padding: 1.6rem; border-radius: 22px;
+    background: var(--tcg-glass); border: 1px solid var(--tcg-border);
+    backdrop-filter: blur(16px); box-shadow: 0 30px 60px -40px rgba(0,0,0,.75);
+    transition: transform .28s cubic-bezier(.22,1,.36,1), border-color .28s, box-shadow .28s;
+  }
+  .tcg-card::before { content:''; position:absolute; inset:0 0 auto; height:3px;
+    background: linear-gradient(90deg, var(--tcg-violet), var(--tcg-violet-2)); opacity:.85; }
+  .tcg-card:hover { transform: translateY(-6px); border-color: rgba(167,139,250,.45);
+    box-shadow: 0 40px 70px -38px rgba(124,58,237,.55); }
+  .tcg-ico {
+    width: 46px; height: 46px; border-radius: 13px; display:flex; align-items:center; justify-content:center;
+    font-size: 1.25rem; color:#fff; margin-bottom: 1rem;
+    background: linear-gradient(135deg, var(--tcg-violet), var(--tcg-violet-2));
+    box-shadow: 0 12px 24px -12px rgba(124,58,237,.8);
+  }
+  .tcg-card h3 { color:#fff; font-size: 1.12rem; font-weight: 700; margin: 0 0 .55rem; }
+  .tcg-card p, .tcg-card li { color: var(--tcg-muted); font-size: .92rem; line-height: 1.6; }
+  .tcg-card ul { padding-left: 1.1rem; margin: 0; }
+  .tcg-card li { margin-bottom: .3rem; }
+
+  .tcg-section-label { color: var(--tcg-violet-2); font-weight: 700; text-transform: uppercase;
+    letter-spacing: .12em; font-size: .78rem; margin: 2.6rem 0 1rem; }
+
+  .tcg-pills { display:flex; flex-wrap:wrap; gap:.55rem; }
+  .tcg-pill { padding:.5rem .9rem; border-radius: 999px; font-size:.82rem; font-weight:600;
+    color: var(--tcg-text); background: rgba(255,255,255,.06); border:1px solid var(--tcg-border); }
+
+  .tcg-btn {
+    display:inline-flex; align-items:center; gap:.5rem; padding:.7rem 1.2rem; border-radius: 13px;
+    font-weight: 700; font-size:.92rem; text-decoration:none; transition: transform .2s, box-shadow .2s;
+  }
+  .tcg-btn-primary { color:#fff; background: linear-gradient(135deg, var(--tcg-violet), var(--tcg-violet-2));
+    box-shadow: 0 14px 30px -14px rgba(124,58,237,.85); }
+  .tcg-btn-ghost { color: var(--tcg-text); background: rgba(255,255,255,.06); border:1px solid var(--tcg-border); }
+  .tcg-btn:hover { transform: translateY(-2px); }
+
+  .tcg-warn { margin-top: 1.2rem; padding: .85rem 1.05rem; border-radius: 13px; font-size: .9rem; font-weight: 600;
+    color: #ffd6a5; background: rgba(245,158,11,.12); border: 1px solid rgba(245,158,11,.35); }
+
+  @media (max-width: 900px) { .tcg-stats { grid-template-columns: repeat(2,1fr); } .tcg-grid { grid-template-columns: 1fr; } }
+  @media (max-width: 520px) { .tcg-stats { grid-template-columns: 1fr; } }
+</style>
+{% endblock %}
+
 {% block body %}
-    <!-- Start of body content specific to page -->
-    <div class="px-5 py-5 mx-auto">
-        <h1 class="text-center" style="font-family: 'Playfair Display', serif; color: #7c3aed;"><strong>TCG Collect</strong></h1>
-        <p class="text-center" style="color: #7c3aed; font-size: 18px; margin-bottom: 30px;"><em>Pokémon card prices, collection tracking, and the card-show circuit — one API</em></p>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card shadow-lg" style="background-color:rgb(41, 40, 39); color: white; border-radius: 15px;">
-                    <div class="card-body">
-                    <h5 class="card-title">What it does</h5>
-                    <ul>
-                        <li>Cross-vendor prices (TCGplayer + Cardmarket + eBay)</li>
-                        <li>Full catalog mirrored from the Pokémon TCG API</li>
-                        <li>Collection tracking with cost basis &amp; gain/loss</li>
-                        <li>Set-completion &amp; want lists</li>
-                        <li>Searchable card-show / expo directory</li>
-                    </ul>
-                    <a href="https://github.com/Ahaanv19/tcg_collect_backend" class="btn btn-light">View Repository</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card shadow-lg" style="background-color:rgb(36, 36, 36); color: white; border-radius: 15px;">
-                    <div class="card-body">
-                    <h5 class="card-title">API Surface</h5>
-                    <ul>
-                        <li>Catalog: sets, cards, prices, movers</li>
-                        <li>Collection &amp; want list (per user)</li>
-                        <li>Portfolio analytics &amp; set completion</li>
-                        <li>Show Mode (live prices vs. your max bid)</li>
-                        <li>Card shows (search by date &amp; distance)</li>
-                    </ul>
-                    <a href="/users/table" class="btn btn-light">View Data</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card shadow-lg" style="background-color:rgb(45, 44, 44); color: white; border-radius: 15px;">
-                    <div class="card-body">
-                    <h5 class="card-title">Backend Technology</h5>
-                    <ul>
-                        <li><strong>Framework:</strong> Flask</li>
-                        <li><strong>Database:</strong> SQLite / MySQL</li>
-                        <li><strong>Authentication:</strong> JWT + Flask-Login</li>
-                        <li><strong>Card data:</strong> Pokémon TCG API</li>
-                        <li><strong>Deployment:</strong> Docker + Nginx</li>
-                    </ul>
-                    <a href="/api/sets" class="btn btn-light">Browse Sets API</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+{% set s = stats | default({}) %}
+<div class="tcg-wrap">
+
+  <div class="tcg-hero">
+    <div class="tcg-mark-lg"><i class="fa fa-clone"></i></div>
+    <span class="tcg-status"><span class="dot"></span> All systems operational</span>
+    <h1 class="tcg-title">TCG Collect</h1>
+    <p class="tcg-sub">The control center behind Pok&eacute;mon card pricing, collection tracking,
+      and the card-show circuit &mdash; a mirrored catalog, cross-vendor prices, and a secure REST API.</p>
+    <div style="margin-top:1.6rem; display:flex; gap:.7rem; justify-content:center; flex-wrap:wrap;">
+      <a href="https://tcgcollect.netlify.app" class="tcg-btn tcg-btn-primary"><i class="fa fa-external-link"></i> Open the App</a>
+      <a href="{{ url_for('utable') }}" class="tcg-btn tcg-btn-ghost"><i class="fa fa-users"></i> User Management</a>
     </div>
+  </div>
+
+  <!-- Live counts, read from the database on each request. -->
+  <div class="tcg-stats">
+    <div class="tcg-stat"><div class="k">{{ '{:,}'.format(s.cards or 0) }}</div><div class="l">Cards Indexed</div></div>
+    <div class="tcg-stat"><div class="k">{{ s.sets or 0 }}</div><div class="l">Sets Tracked</div></div>
+    <div class="tcg-stat gold"><div class="k">{{ s.shows or 0 }}</div><div class="l">Card Shows</div></div>
+    <div class="tcg-stat"><div class="k">{{ s.users or 0 }}</div><div class="l">Registered Users</div></div>
+  </div>
+
+  {% if not s.cards %}
+  <div class="tcg-warn">
+    <i class="fa fa-exclamation-triangle"></i>
+    No cards indexed yet. Run <code>python init_db.py</code> then <code>python sync_catalog.py --all</code>
+    to populate the catalog.
+  </div>
+  {% endif %}
+
+  <div class="tcg-grid">
+    <div class="tcg-card">
+      <div class="tcg-ico"><i class="fa fa-search"></i></div>
+      <h3>What it powers</h3>
+      <ul>
+        <li>Full catalog mirrored from the Pok&eacute;mon TCG API</li>
+        <li>Cross-vendor pricing &mdash; TCGplayer, Cardmarket, eBay</li>
+        <li>Collection tracking with cost basis &amp; gain/loss</li>
+        <li>Set-completion and want lists</li>
+        <li>Show Mode: live prices against your max bid</li>
+      </ul>
+    </div>
+    <div class="tcg-card">
+      <div class="tcg-ico"><i class="fa fa-cogs"></i></div>
+      <h3>Engineering</h3>
+      <p>Flask REST API with JWT auth, rate limiting, and role-based access. The catalog is synced
+         locally so browse pages stay fast and price history accumulates over time.</p>
+      <div class="tcg-pills" style="margin-top:.9rem;">
+        <span class="tcg-pill">Flask</span><span class="tcg-pill">SQLAlchemy</span>
+        <span class="tcg-pill">JWT</span><span class="tcg-pill">Stripe</span>
+        <span class="tcg-pill">Pok&eacute;mon TCG API</span>
+      </div>
+    </div>
+    <div class="tcg-card">
+      <div class="tcg-ico"><i class="fa fa-shield"></i></div>
+      <h3>Operations</h3>
+      <p>Manage users, roles, and subscription plans from one console. Card shows are admin-editable
+         without a redeploy.</p>
+      <div style="margin-top:1rem; display:flex; gap:.55rem; flex-wrap:wrap;">
+        <a href="{{ url_for('utable') }}" class="tcg-btn tcg-btn-primary" style="padding:.55rem 1rem;"><i class="fa fa-users"></i> Manage Users</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="tcg-section-label">API Endpoints</div>
+  <div class="tcg-pills">
+    <a href="/api/sets" class="tcg-pill" style="text-decoration:none;"><i class="fa fa-th-large"></i> Sets</a>
+    <a href="/api/cards" class="tcg-pill" style="text-decoration:none;"><i class="fa fa-clone"></i> Cards</a>
+    <a href="/api/shows" class="tcg-pill" style="text-decoration:none;"><i class="fa fa-calendar"></i> Card Shows</a>
+    <a href="/api/movers" class="tcg-pill" style="text-decoration:none;"><i class="fa fa-line-chart"></i> Price Movers</a>
+    <a href="/api/users" class="tcg-pill" style="text-decoration:none;"><i class="fa fa-users"></i> Users</a>
+  </div>
+
+  <div class="tcg-section-label">Repositories</div>
+  <div class="tcg-pills">
+    <a href="https://tcgcollect.netlify.app" class="tcg-pill" style="text-decoration:none;"><i class="fa fa-globe"></i> Live Site</a>
+    <a href="https://github.com/Ahaanv19/tcg_collect" class="tcg-pill" style="text-decoration:none;"><i class="fa fa-github"></i> Frontend</a>
+    <a href="https://github.com/Ahaanv19/tcg_collect_backend" class="tcg-pill" style="text-decoration:none;"><i class="fa fa-github"></i> Backend</a>
+  </div>
+
+</div>
 {% endblock %}

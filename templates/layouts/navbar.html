@@ -1,10 +1,38 @@
 <!-- Navigation Bar from bootstrap
 This HTML is setup as a fragment allowing it to be "included" by other HTML files via Jinja2
 -->
-<nav class="navbar navbar-expand-lg" style="background-color: #7c3aed;">
+<style>
+    /* Glass navbar so it sits on the aurora background rather than blocking it. */
+    .tcg-nav {
+        background: rgba(13, 9, 26, .72);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid rgba(167, 139, 250, .18);
+    }
+    .tcg-nav .nav-link, .tcg-nav .navbar-brand { color: #ede9fe !important; font-weight: 600; }
+    .tcg-nav .nav-link:hover { color: #c4b5fd !important; }
+    .tcg-nav .navbar-brand { font-weight: 800; letter-spacing: -.01em; }
+    .tcg-nav .dropdown-menu { background: #150e26; border: 1px solid rgba(167,139,250,.18); }
+    .tcg-nav .dropdown-item { color: #ede9fe; }
+    .tcg-nav .dropdown-item:hover { background: rgba(124,58,237,.22); color: #fff; }
+    .tcg-nav input[type="search"] {
+        background: rgba(255,255,255,.06); border: 1px solid rgba(167,139,250,.18);
+        border-radius: 9px; color: #ede9fe; padding: .25rem .6rem; outline: none;
+    }
+    .tcg-nav input[type="search"]::placeholder { color: #8b7fa8; }
+    .tcg-nav input[type="search"]:focus { border-color: #a78bfa; }
+    .tcg-mark {
+        width: 30px; height: 30px; border-radius: 8px; display: inline-flex;
+        align-items: center; justify-content: center; margin-right: .5rem;
+        background: linear-gradient(135deg, #7c3aed, #a78bfa); color: #fff;
+        box-shadow: 0 8px 18px -8px rgba(124,58,237,.9);
+    }
+</style>
+<nav class="navbar navbar-expand-lg tcg-nav">
     <div class="container-fluid">
         <div class="btn-group">
-            <a class="navbar-brand" href="/" style="color: #ffffff; font-weight: bold;">{{basename}}</a>
+            <a class="navbar-brand d-inline-flex align-items-center" href="/">
+                <span class="tcg-mark"><i class="fa fa-clone"></i></span>{{basename}}
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

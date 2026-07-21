@@ -5,6 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from dotenv import load_dotenv
 import os
+import re
 
 # Load environment variables from .env file
 load_dotenv()
@@ -16,15 +17,22 @@ app = Flask(__name__)
 login_manager = LoginManager()
 login_manager.init_app(app)
 
-# Allowed servers for cross-origin resource sharing (CORS), these are GitHub Pages and localhost for GitHub Pages testing
-cors = CORS(app, 
-    supports_credentials=True, 
+# Allowed servers for cross-origin resource sharing (CORS): the deployed
+# frontends (Netlify + GitHub Pages) and localhost for local development.
+cors = CORS(app,
+    supports_credentials=True,
     origins=[
-        'http://localhost:4887', 
-        'http://127.0.0.1:4887', 
+        'http://localhost:4887',
+        'http://127.0.0.1:4887',
         'http://localhost:4100',
         'http://127.0.0.1:4100',
-        'https://ahaanv19.github.io'
+        'https://ahaanv19.github.io',
+        # Netlify production frontend. Requests send credentials:'include', so
+        # the origin must be listed explicitly -- a wildcard is not allowed.
+        'https://tcgcollect.netlify.app',
+        # Netlify deploy previews / branch builds, e.g.
+        # https://deploy-preview-12--tcgcollect.netlify.app
+        re.compile(r'^https://[a-z0-9-]+--tcgcollect\.netlify\.app$'),
     ],
     allow_headers=['Content-Type', 'Authorization', 'X-Origin'],
     methods=['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS']

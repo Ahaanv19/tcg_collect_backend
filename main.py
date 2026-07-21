@@ -150,14 +150,43 @@ def page_not_found(e):
 
 @app.route('/')  # connects default URL to index() function
 def index():
-    print("Home:", current_user)
-    return render_template("index.html")
+    """
+    Backend control-center home.
+
+    Counts are read live so the dashboard reflects the actual database rather
+    than hardcoded marketing numbers. Wrapped in try/except because this page
+    must still render on a fresh install where the tcg_* tables do not exist yet.
+    """
+    stats = {'cards': 0, 'sets': 0, 'shows': 0, 'users': 0}
+    try:
+        stats['cards'] = Card.query.count()
+        stats['sets'] = CardSet.query.count()
+        stats['shows'] = CardShow.query.count()
+        stats['users'] = User.query.count()
+    except Exception as e:
+        print(f"Home stats unavailable (run init_db.py?): {e}")
+
+    return render_template("index.html", stats=stats)
 
 @app.route('/users/table')
 @login_required
 def utable():
     users = User.query.all()
-    return render_template("utable.html", user_data=users)
+    # Build a plan/tier map so the template can show each user's plan without
+    # running a query per row. Admins are surfaced as 'admin'.
+    tiers = {}
+    for u in users:
+        try:
+            sub = Subscription.query.filter_by(_user_id=u.id).first()
+        except Exception:
+            sub = None
+        if getattr(u, 'role', 'User') == 'Admin':
+            tiers[u.id] = 'admin'
+        elif sub and getattr(sub, 'status', None) == 'active':
+            tiers[u.id] = sub.tier or 'free'
+        else:
+            tiers[u.id] = 'free'
+    return render_template("utable.html", user_data=users, tiers=tiers)
 
 @app.route('/users/table2')
 @login_required
@@ -173,6 +202,14 @@ def uploaded_file(filename):
 @app.route('/users/delete/<int:user_id>', methods=['DELETE'])
 @login_required
 def delete_user(user_id):
+    # Admin-only, matching reset_password below. Without this any authenticated
+    # user could delete any account, including an admin's.
+    if current_user.role != 'Admin':
+        return jsonify({'error': 'Unauthorized'}), 403
+    # Deleting yourself would log you out and could remove the last admin.
+    if user_id == current_user.id:
+        return jsonify({'error': "You can't delete your own account."}), 400
+
     user = User.query.get(user_id)
     if user:
         user.delete()
@@ -193,6 +230,76 @@ def reset_password(user_id):
     if user.update({"password": app.config['DEFAULT_PASSWORD']}):
         return jsonify({'message': 'Password reset successfully'}), 200
     return jsonify({'error': 'Password reset failed'}), 500
+
+@app.route('/users/set_role/<int:user_id>', methods=['POST'])
+@login_required
+def set_user_role(user_id):
+    """Promote or demote a user between 'Admin' and 'User' (admin only)."""
+    if current_user.role != 'Admin':
+        return jsonify({'error': 'Unauthorized'}), 403
+
+    user = User.query.get(user_id)
+    if not user:
+        return jsonify({'error': 'User not found'}), 404
+
+    data = request.get_json(silent=True) or {}
+    role = (data.get('role') or '').strip()
+    if role not in ('Admin', 'User'):
+        return jsonify({'error': 'Invalid role. Must be "Admin" or "User".'}), 400
+    # Guard against an admin locking themselves out of the console.
+    if user.id == current_user.id and role != 'Admin':
+        return jsonify({'error': "You can't remove your own admin role."}), 400
+
+    try:
+        user.role = role
+        db.session.commit()
+        return jsonify({'message': f'Role updated to {role}', 'role': role}), 200
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/users/set_tier/<int:user_id>', methods=['POST'])
+@login_required
+def set_user_tier(user_id):
+    """Set a user's subscription plan/tier (admin only)."""
+    if current_user.role != 'Admin':
+        return jsonify({'error': 'Unauthorized'}), 403
+
+    user = User.query.get(user_id)
+    if not user:
+        return jsonify({'error': 'User not found'}), 404
+
+    # Imported locally: main.py has no module-level datetime import, and adding
+    # one risks colliding with names used elsewhere in this module.
+    from datetime import datetime, timedelta
+
+    data = request.get_json(silent=True) or {}
+    tier = (data.get('tier') or 'free').strip()
+    billing_interval = data.get('billing_interval', 'monthly')
+    if tier not in ('free', 'plus', 'pro'):
+        return jsonify({'error': 'Invalid tier. Must be "free", "plus", or "pro".'}), 400
+
+    days = 30 if billing_interval == 'monthly' else 365
+    try:
+        subscription = Subscription.query.filter_by(_user_id=user_id).first()
+        if not subscription:
+            subscription = Subscription(
+                user_id=user_id,
+                tier=tier,
+                status='active',
+                billing_interval=billing_interval if tier != 'free' else None,
+            )
+            db.session.add(subscription)
+        else:
+            subscription.tier = tier
+            subscription.status = 'active'
+            subscription.billing_interval = billing_interval if tier != 'free' else None
+        subscription.expires_at = (datetime.utcnow() + timedelta(days=days)) if tier != 'free' else None
+        db.session.commit()
+        return jsonify({'message': f'Plan updated to {tier}', 'tier': tier}), 200
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({'error': str(e)}), 500
 
 # Create an AppGroup for custom commands
 custom_cli = AppGroup('custom', help='Custom commands')
